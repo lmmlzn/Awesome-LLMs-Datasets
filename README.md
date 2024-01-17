@@ -171,6 +171,12 @@ The general pre-training corpora are large-scale datasets composed of extensive 
 
 #### Language Texts
 
+- **ANC  2003-X | All | EN | HG | [Website](https://anc.org/)**
+  - Publisher: The US National Science Foundation et al.
+  - Size: -
+  - License: -
+  - Source: American English texts
+
 #### Books
 
 #### Academic Materials
