@@ -1,5 +1,5 @@
 # Awesome-LLMs-Datasets
-Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**.（(Regular updates)
+Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**. (Regular updates)
 
 The paper **"The Roots of the AI Tree: A Survey of Large Language Model Datasets"** will be released soon.（2024/2）
 
@@ -57,8 +57,8 @@ The following is a summary of the dataset information module.
 - （2024/1/17）Create the **Awesome-LLMs-Datasets** dataset repository.
 
 ## Table of Contents
-1. [Pre-training Corpora](#Pre-training Corpora)
-2. [Instruction Fine-tuning Datasets](#Instruction Fine-tuning Datasets)
+1. [Pre-training Corpora](#pre-training-corpora)
+2. [Instruction Fine-tuning Datasets](#instruction-fine-tuning-datasets)
 
 ## Pre-training Corpora
 
