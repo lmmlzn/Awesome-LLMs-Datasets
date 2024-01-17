@@ -59,13 +59,99 @@ The following is a summary of the dataset information module.
 ## Table of Contents
 1. [Pre-training Corpora](#pre-training-corpora)
 2. [Instruction Fine-tuning Datasets](#instruction-fine-tuning-datasets)
+3. [Preference Datasets](#preference-datasets)
+4. [Evaluation Datasets](#evaluation-datasets)
+5. [Traditional NLP Datasets](#traditional-nlp-datasets)
 
 ## Pre-training Corpora
 
+### General Pre-training Corpora
+
+#### Webpages
+
+### Domain-specific Pre-training Corpora
+
 ## Instruction Fine-tuning Datasets
+
+### General Instruction Fine-tuning Datasets
+
+### Domain-specific Instruction Fine-tuning Datasets
 
 ## Preference Datasets
 
+### Preference Evaluation Methods
+
 ## Evaluation Datasets
 
+### General
+
+### Exam
+
+### Subject
+
+### NLU
+
+### Reasoning
+
+### Knowledge
+
+### Long Text
+
+### Tool
+
+### Agent
+
+### Code
+
+### OOD
+
+### Law
+
+### Medical
+
+### Financial
+
+### Social Norms
+
+### Factuality
+
+### Evaluation
+
+### Multitask
+
+### Multilingual
+
+### Other
+
 ## Traditional NLP Datasets
+
+### Question Answering
+
+### Recognizing Textual Entailment
+
+### Math
+
+### Coreference Resolution
+
+### Sentiment Analysis
+
+### Semantic Matching
+
+### Text Generation
+
+### Text Translation
+
+### Text Summarization
+
+### Text Classification
+
+### Text Quality Evaluation
+
+### Text-to-Code
+
+### Named Entity Recognition
+
+### Relation Extraction
+
+### Multitask
+
