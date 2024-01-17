@@ -138,12 +138,34 @@ The following is a summary of the dataset information module.
   - [Named Entity Recognition](#named-entity-recognition)
   - [Relation Extraction](#relation-extraction)
   - [Multitask](#multitask02)
+
 ## Pre-training Corpora
+The pre-training corpora are large collections of text data used during the pre-training process of LLMs.
 
 ### General Pre-training Corpora
+The general pre-training corpora are large-scale datasets composed of extensive text from diverse domains and sources. Their primary characteristic is that the text content is not confined to a single domain, making them more suitable for training general foundational models. **Corpora are classified based on data categories.**
+
+**Dataset information format：**
+
+```
+Dataset name  Release Time | Public or Not | Language | Construction Method
+Paper | Github | Dataset | Website
+(1) Publisher:
+(2) Size:
+(3) License:
+(4) Source:
+```
 
 #### Webpages
 
+- CC-Stories  2018-6 | Not | EN | CI
+  - [Paper](https://arxiv.org/pdf/1806.02847.pdf) | [Github](https://github.com/tensorflow/models/tree/archive/research/lm_commonsense) | [Dataset](https://huggingface.co/datasets/spacemanidol/cc-stories)
+  - (1) Publisher: Google Brain
+  - (2) Size: 31 GB
+  - (3) License: -
+  - (4) Source: Common Crawl
+
+-
 #### Language Texts
 
 #### Books
