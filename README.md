@@ -54,7 +54,8 @@ The following is a summary of the dataset information module.
 - Number of Relationship Categories (RE Task)
 
 ## Changelog
-- （2024/1/17）Create the **Awesome-LLMs-Datasets** dataset repository.
+- （2024/01/17）Create the **Awesome-LLMs-Datasets** dataset repository.
+- （2024/02/02）Revise information for some datasets; add **[Dolma](https://browse.arxiv.org/abs/2402.00159)** corpus (General pre-training corpus-Multi).
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
@@ -169,7 +170,7 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: Common Crawl Terms of Use
   - Source: Common Crawl
 
-- **CLUECorpus2020  2020-3 | All | ZH | CI [Paper](https://arxiv.org/pdf/2003.01355.pdf) | [Dataset](https://github.com/CLUEbenchmark/CLUECorpus2020)**
+- **CLUECorpus2020  2020-3 | All | ZH | CI | [Paper](https://arxiv.org/pdf/2003.01355.pdf) | [Dataset](https://github.com/CLUEbenchmark/CLUECorpus2020)**
   - Publisher: CLUE Organization
   - Size: 100 GB
   - License: MIT
@@ -298,6 +299,11 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: Terms of Use for arXiv APIs
   - Source: arXiv preprint
 
+- **S2ORC  2020-6 | All | EN | CI | [Paper](https://aclanthology.org/2020.acl-main.447.pdf) | [Github](https://github.com/allenai/s2orc)**
+  - Publisher: AI2 et al.
+  - Size: 81.1 MB
+  - License: ODC-BY-1.0
+  - Source: MAG, arXiv, PubMed, etc.
 
 #### Code <a id="code01"></a>
 
@@ -400,7 +406,7 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: Baidu baike User Agreement
   - Source: Encyclopedic content data
 
-- **TigerBot-wiki  2023-5 | All | ZH | HG | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-wiki-plugin)**
+- **TigerBot-wiki  2023-5 | All | ZH | HG | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-wiki-plugin)**
   - Publisher: TigerBot
   - Size: 205 MB
   - License: Apache-2.0
@@ -445,13 +451,13 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: MIT
   - Source: Books, arXiv, Github, etc.
 
-- **TigerBot_pretrain_en  2023-5 | Partial | EN | CI | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/pretrain_en)**
+- **TigerBot_pretrain_en  2023-5 | Partial | EN | CI | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/pretrain_en)**
   - Publisher: TigerBot
   - Size: 51 GB
   - License: Apache-2.0
   - Source: English books, webpages, en-wiki, etc
 
-- **TigerBot_pretrain_zh  2023-5 | Partial | ZH | HG | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/pretrain_zh)**
+- **TigerBot_pretrain_zh  2023-5 | Partial | ZH | HG | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/pretrain_zh)**
   - Publisher: TigerBot
   - Size: 55 GB
   - License: Apache-2.0
@@ -463,6 +469,11 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: CC-BY-4.0
   - Source: Webpages, Encyclopedia, Books, etc
 
+- **Dolma  2024-1 | All | EN | HG & CI | [Paper](https://browse.arxiv.org/abs/2402.00159) | [Github](https://github.com/allenai/dolma) | [Dataset](https://huggingface.co/datasets/allenai/dolma)**
+  - Publisher: AI2 et al.
+  - Size: 11519 GB
+  - License: MR Agreement
+  - Source: Project Gutenberg, C4, Reddit, etc.
 
 ### Domain-specific Pre-training Corpora
 Domain-specific pre-training corpora are LLM datasets customized for specific fields or topics. The type of corpus is typically employed in the incremental pre-training phase of LLMs. **Corpora are classified based on data domains.**
@@ -505,7 +516,7 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
   - Category: Language Texts
   - Domain: Finance
 
-- **TigerBot-earning  2023-5 | All | ZH | HG | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-earning-plugin)**
+- **TigerBot-earning  2023-5 | All | ZH | HG | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-earning-plugin)**
   - Publisher: TigerBot
   - Size: 488 MB
   - License: Apache-2.0
@@ -513,7 +524,7 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
   - Category: Language Texts
   - Domain: Finance
 
-- **TigerBot-research  2023-5 | All | ZH | HG | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-research-plugin)**
+- **TigerBot-research  2023-5 | All | ZH | HG | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-research-plugin)**
   - Publisher: TigerBot
   - Size: 696 MB
   - License: Apache-2.0
@@ -543,7 +554,7 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
 
 #### Other <a id="other01"></a>
 
-- **TigerBot-law  2023-5 | All | ZH | HG | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-law-plugin)**
+- **TigerBot-law  2023-5 | All | ZH | HG | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/tigerbot-law-plugin)**
   - Publisher: TigerBot
   - Size: 29.9 MB
   - License: Apache-2.0
@@ -1060,14 +1071,14 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Source: Collected multi-lingual instructions, post-translated multi-lingual instructions, self-generated user-centered multi-lingual instructions
   - Instruction Category: Multi
 
-- **TigerBot_sft_en  2023-5 | Partial | EN | HG & CI & MC | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/sft_en)**
+- **TigerBot_sft_en  2023-5 | Partial | EN | HG & CI & MC | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/sft_en)**
   - Publisher: TigerBot
   - Size: 677117 instances
   - License: Apache-2.0
   - Source: Self-instruct, human-labeling, open-source data cleaning
   - Instruction Category: Multi
 
-- **TigerBot_sft_zh  2023-5 | Partial | ZH | HG & CI & MC | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/sft_zh)**
+- **TigerBot_sft_zh  2023-5 | Partial | ZH | HG & CI & MC | [Paper](https://arxiv.org/abs/2312.08688) | [Github](https://github.com/TigerResearch/TigerBot) | [Dataset](https://huggingface.co/datasets/TigerResearch/sft_zh)**
   - Publisher: TigerBot
   - Size: 530705 instances
   - License: Apache-2.0
@@ -2100,7 +2111,7 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 8/-
   - Evaluation Category: Operating system, Database, Knowledge graph, Digital card game, Lateral thinking puzzles, House-holding, Web shopping, Web browsing
 
-- **SuperCLUE-Agent  2023-10 | Not | ZH | - | [Website1](https://www.cluebenchmarks.com/superclue_agent.html) | [Website2](https://www.superclueai.com/)**
+- **SuperCLUE-Agent  2023-10 | Not | ZH | - | [Github](https://github.com/CLUEbenchmark/SuperCLUE-Agent) | [Website1](https://www.cluebenchmarks.com/superclue_agent.html) | [Website2](https://www.superclueai.com/)**
   - Publisher: CLUEbenchmark
   - Size: -
   - License: -
@@ -2183,6 +2194,15 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 1/-
   - Evaluation Category: Code generation
 
+- **APPS  2021-5 | All | EN & PL | HG | [Paper](https://arxiv.org/pdf/2105.09938.pdf) | [Github](https://github.com/hendrycks/apps) | [Dataset](https://huggingface.co/datasets/codeparrot/apps)**
+  - Publisher: UC Berkeley et al.
+  - Size: 10000 instances
+  - License: MIT
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: The ability to take an arbitrary natural language specification and generate satisfactory Python code
+  - Numbers of Evaluation Categories/Subcategories: 1/-
+  - Evaluation Category: Code generation
 
 ### OOD
 
@@ -2378,7 +2398,7 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
 
 ### Social Norms
 
-- **CrowS-Paires  2020-11 | All | EN | HG & CI | [Paper](https://aclanthology.org/2020.emnlp-main.154.pdf) | [Github](https://github.com/nyu-mll/crows-pairs)**
+- **CrowS-Pairs  2020-11 | All | EN | HG & CI | [Paper](https://aclanthology.org/2020.emnlp-main.154.pdf) | [Github](https://github.com/nyu-mll/crows-pairs)**
   - Publisher: New York University
   - Size: 1508 instances
   - License: CC-SA-4.0
@@ -2398,7 +2418,7 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 7/-
   - Evaluation Category: Offensiveness, Unfairness and bias, Physical health, Mental Health, Illegal activities, Ethics and morality, Privacy and Property
 
-- **Safety-Prompts  2023-4 | Partial | ZH | MC | [Github](https://github.com/thu-coai/Safety-Prompts) | [Dataset](https://github.com/thu-coai/Safety-Prompts) | [Website](http://115.182.62.166:18000/)**
+- **Safety-Prompts  2023-4 | Partial | ZH | MC | [Paper](https://arxiv.org/abs/2304.10436) | [Github](https://github.com/thu-coai/Safety-Prompts) | [Dataset](https://github.com/thu-coai/Safety-Prompts) | [Website](http://115.182.62.166:18000/)**
   - Publisher: Tsinghua University et al.
   - Size: 100K instances
   - License: Apache-2.0
@@ -2899,7 +2919,7 @@ The task of reading comprehension entails presenting a model with a designated t
   - Train/Dev/Test/All Size: -/4199/42246/46445
   - License: CC-BY-SA-3.0
 
-- **DuReader Robust  2020-3 | ZH | [Paper](https://github.com/baidu/DuReader/tree/master/DuReader-Robust) | [Github1](https://github.com/baidu/DuReader) | [Github2](https://github.com/baidu/DuReader/tree/master/DuReader-Robust)**
+- **DuReader Robust  2020-3 | ZH | [Paper](https://arxiv.org/abs/2004.11142) | [Github1](https://github.com/baidu/DuReader) | [Github2](https://github.com/baidu/DuReader/tree/master/DuReader-Robust)**
   - Publisher: Baidu Inc. et al.
   - Train/Dev/Test/All Size: 15K/1.4K/4.8K/21.2K
   - License: Apache-2.0
@@ -3094,7 +3114,7 @@ The primary objective of tasks related to Recognizing Textual Entailment (RTE) i
   - Train/Dev/Test/All Size: 162865/3200/3200/169265
   - License: CC-NC-4.0
 
-- **RTE  - | EN | [Paper1](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e808f28d411a958c5db81ceb111beb2638698f47) | [Paper2](https://www.academia.edu/18964334/The_PASCAL_Recognising_Textual_Entailment_Challenge) | [Paper3](https://dl.acm.org/doi/pdf/10.5555/1654536.1654538) | [Paper4](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.232.1231&rep=rep1&type=pdf) | [Dataset](https://huggingface.co/datasets/glue/viewer/rte/train)**
+- **RTE  - | EN | [Paper1](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e808f28d411a958c5db81ceb111beb2638698f47) | [Paper2](https://www.semanticscholar.org/paper/The-Second-PASCAL-Recognising-Textual-Entailment-Bar-Haim-Dagan/136326377c122560768db674e35f5bcd6de3bc40) | [Paper3](https://dl.acm.org/doi/pdf/10.5555/1654536.1654538) | [Paper4](https://tac.nist.gov/publications/2009/additional.papers/RTE5_overview.proceedings.pdf) | [Dataset](https://huggingface.co/datasets/glue/viewer/rte/train)**
   - Publisher: The PASCAL Recognising Textual Entailment Challenge
   - Train/Dev/Test/All Size: 2.49K/277/3K/5.77K
   - License: CC-BY-4.0
@@ -3381,7 +3401,7 @@ The task of text summarization pertains to the extraction or generation of a bri
   - Train/Dev/Test/All Size: 5990/-/-/5990
   - License: -
 
-- **WikiLingua  2020-10 | Multi (18) | [Paper](https://aclanthoogy.org/2020.findings-emnlp.360.pdf) | [Github](https://github.com/esdurmus/Wikilingua) | [Dataset](https://github.com/esdurmus/Wikilingua)**
+- **WikiLingua  2020-10 | Multi (18) | [Paper](https://aclanthology.org/2020.findings-emnlp.360/) | [Github](https://github.com/esdurmus/Wikilingua) | [Dataset](https://github.com/esdurmus/Wikilingua)**
   - Publisher: Columbia University et al.
   - Train/Dev/Test/All Size: -/-/-/770087
   - License: CC-BY-3.0
