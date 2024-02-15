@@ -576,7 +576,7 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
   - License: -
   - Source: ArXiv, OpenWebMath, AlgebraicStack
   - Category: Multi
-  - Domain: Multi
+  - Domain: Mathematics
 
 
 ## Instruction Fine-tuning Datasets
