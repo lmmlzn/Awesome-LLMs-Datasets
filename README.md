@@ -56,7 +56,7 @@ The following is a summary of the dataset information module.
 ## Changelog
 - （2024/01/17）Create the **Awesome-LLMs-Datasets** dataset repository.
 - （2024/02/02）Revise information for some datasets; add **[Dolma](https://browse.arxiv.org/abs/2402.00159)** corpus (General pre-training corpus-Multi).
--  (2024/02/15)Add **[Aya Collection](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG & CI & MC) and **[Aya Dataset](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG).
+- （2024/02/15）Add **[Aya Collection](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG & CI & MC) and **[Aya Dataset](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG).
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
