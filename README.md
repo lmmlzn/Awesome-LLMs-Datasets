@@ -1,7 +1,7 @@
 # Awesome-LLMs-Datasets
 Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**. (Regular updates)
 
-The paper **"The Roots of the AI Tree: A Survey of Large Language Model Datasets"** will be released soon.（2024/2）
+The paper **"Datasets for Large Language Models: A Comprehensive Survey"** will be released soon.（2024/2）
 
 ## Dataset Information Module
 The following is a summary of the dataset information module.
@@ -57,6 +57,7 @@ The following is a summary of the dataset information module.
 - （2024/01/17）Create the **Awesome-LLMs-Datasets** dataset repository.
 - （2024/02/02）Revise information for some datasets; add **[Dolma](https://browse.arxiv.org/abs/2402.00159)** corpus (General pre-training corpus-Multi).
 - （2024/02/15）Add **[Aya Collection](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG & CI & MC) and **[Aya Dataset](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG).
+- （2024/02/22）Add **[OpenMathInstruct-1](https://arxiv.org/abs/2402.10176)** (Domain-specific instruction fine-tuning dataset-Math) and **[FinBen](https://arxiv.org/abs/2402.12659)** (Evaluation dataset-Financial)
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
@@ -1310,6 +1311,13 @@ The domain-specific instruction fine-tuning datasets are constructed for a parti
   - Instruction Category: Math
   - Domain: Math
 
+- **OpenMathInstruct-1  2024-2 | All | EN | CI & MC | [Paper](https://arxiv.org/abs/2402.10176) | [Github](https://github.com/Kipok/NeMo-Skills) | [Dataset](https://huggingface.co/datasets/nvidia/OpenMathInstruct-1)**
+  - Publisher: NVIDIA
+  - Size: 1.8M instances
+  - License: NVIDIA License
+  - Source: GSM8K and MATH datasets (original questions); Generated using Mixtral-8×7B model
+  - Instruction Category: Math
+  - Domain: Math
 
 #### Education
 
@@ -2409,6 +2417,15 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 5/6
   - Evaluation Category: Financial sentiment analysis, News headline classification, Named entity recognition, Structure boundary detection, Question answering
 
+- **FinBen  2024-2 | All | EN | CI | [Paper](https://arxiv.org/abs/2402.12659) | [Github](https://github.com/The-FinAI)**
+  - Publisher: The Fin AI et al.
+  - Size: 69805 instances
+  - License: -
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: NLP tasks in the financial domain
+  - Numbers of Evaluation Categories/Subcategories: 3/6
+  - Evaluation Category: Foundamental tasks, Advanced cognitive engagement, General intelligence
 
 ### Social Norms
 
