@@ -1,7 +1,7 @@
 # Awesome-LLMs-Datasets
 Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**. (Regular updates)
 
-The paper **"Datasets for Large Language Models: A Comprehensive Survey"** will be released soon.（2024/2）
+The paper **["Datasets for Large Language Models: A Comprehensive Survey"](https://arxiv.org/abs/2402.18041)** has been released.（2024/2）
 
 ## Dataset Information Module
 The following is a summary of the dataset information module.
