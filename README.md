@@ -3654,3 +3654,24 @@ Multitask datasets hold significance as they can be concurrently utilized for di
   - Publisher: Zhejiang University et al.
   - Train/Dev/Test/All Size: -/-/-/-
   - License: Apache-2.0
+
+## Contact
+Contact information for relevant authors：
+Yang Liu：eeyang_liu@mail.scut.edu.cn
+Lianwen Jin：eelwjin@scut.edu.cn
+
+If you discover important data resources that have not yet been collected, we warmly welcome you to submit relevant papers, data links, and other information to us. We will evaluate them, and if suitable, we will include the data in **[Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets)** and survey. Thank you very much for your help and support!
+
+
+## Citation
+If you wish to cite this project, please use the following citation format:
+```
+@article{liu2024survey,
+  title={Datasets for Large Language Models: A Comprehensive Survey},
+  author={Liu, Yang and Cao, Jiahuan and Liu, Chongyu and Ding, Kai and Jin, Lianwen},
+  journal={arXiv preprint arXiv:2402.18041},
+  year={2024}
+}
+```
+
+
