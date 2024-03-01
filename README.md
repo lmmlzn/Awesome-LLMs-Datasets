@@ -3662,7 +3662,9 @@ Yang Liu：eeyang_liu@mail.scut.edu.cn
 
 Lianwen Jin：eelwjin@scut.edu.cn
 
-If you discover important data resources that have not yet been collected, we warmly welcome you to submit relevant papers, data links, and other information to us. We will evaluate them, and if suitable, we will include the data in **[Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets)** and survey. Thank you very much for your help and support!
+Due to our current lack of human resources to handle such a vast amount of data resources, we couldn't include all data resources. We sincerely apologize for any inconvenience and disappointment this may cause you.
+
+If you discover important data resources that have not yet been collected, we warmly welcome you to submit relevant papers, data links, and other information to us. We will evaluate them, and if suitable, we will include the data in **[Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets)** and the survey. Thank you very much for your help and support!
 
 ## Citation
 If you wish to cite this project, please use the following citation format:
