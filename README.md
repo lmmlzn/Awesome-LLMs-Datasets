@@ -3656,13 +3656,13 @@ Multitask datasets hold significance as they can be concurrently utilized for di
   - License: Apache-2.0
 
 ## Contact
-Contact information for relevant authors：
+Contact information：
 
-Lianwen Jin：eelwjin@scut.edu.cn
+  Lianwen Jin：lianwen.jin@gmail.com
 
-Yang Liu：eeyang_liu@mail.scut.edu.cn
+  Yang Liu：ly10061105@gmail.com
 
-Due to our current lack of human resources to handle such a vast amount of data resources, we couldn't include all data resources. We sincerely apologize for any inconvenience and disappointment this may cause you.
+Due to our current lack of human resources to handle such a vast amount of data resources, we couldn't include all data resources at this moment. We sincerely apologize for any inconvenience it may cause.
 
 If you discover important data resources that have not yet been collected, we warmly welcome you to submit relevant papers, data links, and other information to us. We will evaluate them, and if suitable, we will include the data in **[Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets)** and the survey. Thank you very much for your help and support!
 
