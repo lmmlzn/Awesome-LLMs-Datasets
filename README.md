@@ -3675,7 +3675,7 @@ Contact information：
 
 &ensp;&ensp;Yang Liu：ly10061105@gmail.com
 
-Due to our current limited human resources to manage such a vast amount of data resources, we regret that we are unable to include all data resources at this moment. If you find any important data resources that have not yet been included, we warmly invite you to submit relevant papers, data links, and other information to us. We will evaluate them, and if appropriate, we will include the data in the **[Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets)** and the survey paper. Your assistance and support are greatly appreciated!
+Due to our current limited human resources to manage such a vast amount of data resources, we regret that we are unable to include all data resources at this moment. If you find any important data resources that have not yet been included, we warmly invite you to submit relevant papers, data links, and other information to us. We will evaluate them, and if appropriate, we will include the data in the **[Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets)** and **[the survey paper](https://arxiv.org/abs/2402.18041)**. Your assistance and support are greatly appreciated!
 
 ## Citation
 If you wish to cite this project, please use the following citation format:
