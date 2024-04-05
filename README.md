@@ -227,7 +227,7 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: Apache-2.0
   - Source: Common Crawl
 
-- **RedPajama-V2  Release Time | All | Multi (5) | CI | [Github](https://github.com/togethercomputer/RedPajama-Data) | [Dataset](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2)| [Website](https://together.ai/blog/redpajama-data-v2)**
+- **RedPajama-V2  2023-10 | All | Multi (5) | CI | [Github](https://github.com/togethercomputer/RedPajama-Data) | [Dataset](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2) | [Website](https://together.ai/blog/redpajama-data-v2)**
   - Publisher: Together Computer
   - Size: 30.4 T Tokens
   - License: Common Crawl Terms of Use
@@ -388,7 +388,7 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: -
   - Source: Reddit
 
-- **Reddit  2005-6 | All | EN | HG | [Website] www.reddit.com**
+- **Reddit  2005-6 | All | EN | HG | [Website](www.reddit.com)**
   - Publisher: Condé Nast Digital et al.
   - Size: -
   - License: -
@@ -842,12 +842,12 @@ General instruction fine-tuning datasets contain one or more instruction categor
 
 #### Collection and Improvement of Existing Datasets (CI)
 
-- **CrossFit  2021-4 | All | Language | Construction Method | [Paper](https://arxiv.org/pdf/2104.08835.pdf) | [Github](https://github.com/INK-USC/CrossFit)**
+- **CrossFit  2021-4 | All | EN | CI | [Paper](https://arxiv.org/pdf/2104.08835.pdf) | [Github](https://github.com/INK-USC/CrossFit)**
   - Publisher: University of Southern California
   - Size: 269 datasets
   - License: -
-  - Source:
-  - Instruction Category:
+  - Source: Collection and improvement of various NLP datasets
+  - Instruction Category: Multi
 
 - **DialogStudio  2023-7 | All | EN | CI | [Paper](https://arxiv.org/pdf/2307.10172.pdf) | [Github](https://github.com/salesforce/DialogStudio) | [Dataset](https://huggingface.co/datasets/Salesforce/dialogstudio)**
   - Publisher: Salesforce AI et al.
@@ -1788,7 +1788,7 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 4/57
   - Evaluation Category: Humanities, Social science, STEM, Other
 
-- **M3KE  2023-5 | Public or Not | ZH | HG | [Paper](https://arxiv.org/pdf/2305.10263.pdf) | [Github](https://github.com/tjunlp-lab/M3KE) | [Dataset](https://huggingface.co/datasets/TJUNLP/M3KE)**
+- **M3KE  2023-5 | All | ZH | HG | [Paper](https://arxiv.org/pdf/2305.10263.pdf) | [Github](https://github.com/tjunlp-lab/M3KE) | [Dataset](https://huggingface.co/datasets/TJUNLP/M3KE)**
   - Publisher: Tianjin University et al.
   - Size: 20477 instances
   - License: Apache-2.0
@@ -2676,7 +2676,7 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Size: 453 instances
   - License: -
   - Question Type: SQ
-  - Evaluation Method: HE 7 ME
+  - Evaluation Method: HE & ME
   - Focus: Multidimensional capabilities
   - Numbers of Evaluation Categories/Subcategories: 17/-
   - Evaluation Category: Fact-based question answering, Reading comprehension, Framework generation, Paragraph rewriting, etc.
@@ -2852,10 +2852,10 @@ The task of reading comprehension entails presenting a model with a designated t
   - Train/Dev/Test/All Size: 11869/3816/3892/19577
   - License: -
 
-- **ReClor  Release Time | Language | [Paper](https://arxiv.org/pdf/2002.04326.pdf) | [Website](https://whyu.me/reclor/)**
-  - Publisher: 
-  - Train/Dev/Test/All Size: 
-  - License: 
+- **ReClor  2020-2 | EN | [Paper](https://arxiv.org/pdf/2002.04326.pdf) | [Website](https://whyu.me/reclor/)**
+  - Publisher: National University of Singapore
+  - Train/Dev/Test/All Size: 4638/500/1000/6138
+  - License: -
 
 - **DREAM  2020-2 | EN | [Paper](https://arxiv.org/pdf/1902.00164.pdf) | [Github](https://github.com/nlpdata/dream) | [Website](https://dataset.org/dream/)**
   - Publisher: National University of Singapore
