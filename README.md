@@ -74,10 +74,12 @@ The following is a summary of the dataset information module.
 - （2024/02/22）Add **[OpenMathInstruct-1](https://arxiv.org/abs/2402.10176)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[FinBen](https://arxiv.org/abs/2402.12659)** (Evaluation Datasets | Financial).
 - （2024/04/05）
   - Add new dataset sections: **(1) Multi-modal Large Language Models (MLLMs) Datasets; (2) Retrieval Augmented Generation (RAG) Datasets**.
-  - Add **[MMRS-1M](https://arxiv.org/abs/2401.16822)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[VideoChat2-IT](https://arxiv.org/abs/2311.17005)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[InstructDoc](https://arxiv.org/abs/2401.13313)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[MVBench](https://arxiv.org/abs/2311.17005)** (MLLMs Datasets | Evaluation Datasets); **[OlympiadBench](https://arxiv.org/abs/2402.14008)** (MLLMs Datasets | Evaluation Datasets).
-  - Add **[CLUE Benchmark Series](https://github.com/CLUEbenchmark)** (Evaluation Datasets | Evaluation Platform).
-  - Add **[NAH (Needle-in-a-Haystack)](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)** (Evaluation Datasets | Long Text); **[ToolEyes](https://arxiv.org/abs/2401.00741)** (Evaluation Datasets | Tool); **[UHGEval](https://arxiv.org/abs/2311.15296)** (Evaluation Datasets | Factuality).
-  - Add **[MathPile](https://arxiv.org/abs/2312.17120)** (Pre-training Corpora | Domain-specific Pre-training Corpora | Math).
+  - Add **[MMRS-1M](https://arxiv.org/abs/2401.16822)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[VideoChat2-IT](https://arxiv.org/abs/2311.17005)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[InstructDoc](https://arxiv.org/abs/2401.13313)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[ALLaVA-4V Data](https://arxiv.org/abs/2402.11684)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[MVBench](https://arxiv.org/abs/2311.17005)** (MLLMs Datasets | Evaluation Datasets); **[OlympiadBench](https://arxiv.org/abs/2402.14008)** (MLLMs Datasets | Evaluation Datasets); **[MMMU](https://arxiv.org/abs/2311.16502)** (MLLMs Datasets | Evaluation Datasets).
+  - Add **[CLUE Benchmark Series](https://github.com/CLUEbenchmark)** (Evaluation Datasets | Evaluation Platform); **[OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)** (Evaluation Datasets | Evaluation Platform); **[OpenCompass](https://opencompass.org.cn/home)** (Evaluation Datasets | Evaluation Platform); **[MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)** (Evaluation Datasets | Evaluation Platform); **[C-MTEB Leaderboard](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)** (Evaluation Datasets | Evaluation Platform).
+  - Add **[NAH (Needle-in-a-Haystack)](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)** (Evaluation Datasets | Long Text); **[ToolEyes](https://arxiv.org/abs/2401.00741)** (Evaluation Datasets | Tool); **[UHGEval](https://arxiv.org/abs/2311.15296)** (Evaluation Datasets | Factuality); **[CLongEval](https://arxiv.org/abs/2403.03514)** (Evaluation Datasets | Long Text).
+  - Add **[MathPile](https://arxiv.org/abs/2312.17120)** (Pre-training Corpora | Domain-specific Pre-training Corpora | Math); **[WanJuan-CC](https://arxiv.org/abs/2402.19282)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
+  - Add **[IEPile](https://arxiv.org/abs/2402.14710)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | CI); **[InstructIE](https://arxiv.org/abs/2305.11527)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG).
+  - Add **[CRUD-RAG](https://arxiv.org/abs/2401.17043)** (RAG Datasets); **[WikiEval](https://arxiv.org/abs/2309.15217)** (RAG Datasets); **[RGB](https://arxiv.org/abs/2309.01431)** (RAG Datasets); **[RAG-Instruct-Benchmark-Tester](https://huggingface.co/datasets/llmware/rag_instruct_benchmark_tester)** (RAG Datasets); **[ARES](https://arxiv.org/abs/2311.09476)** (RAG Datasets).
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
@@ -258,6 +260,11 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: MIT
   - Source: Chinese webpages
 
+- **WanJuan-CC  2024-2 | Partial | EN | HG | [Paper](https://arxiv.org/abs/2402.19282) | [Dataset](https://opendatalab.org.cn/OpenDataLab/WanJuanCC)**
+  - Publisher: Shanghai Artifcial Intelligence Laboratory
+  - Size: 1 T Tokens
+  - License: CC-BY-4.0
+  - Source: Common Crawl
 
 #### Language Texts
 
@@ -682,6 +689,13 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Source: Manually collected and annotated via the Aya Annotation Platform
   - Instruction Category: Multi
 
+- **InstructIE  2023-5 | All | EN & ZH | HG | [Paper](https://arxiv.org/abs/2305.11527) | [Github](https://github.com/zjunlp/KnowLM) | [Dataset](https://huggingface.co/datasets/zjunlp/InstructIE)**
+  - Publisher: Zhejiang University et al.
+  - Size: 371700 instances
+  - License: MIT
+  - Source: Baidu baike, Wikipedia
+  - Instruction Category: Extraction
+
 #### Model Constructed Datasets (MC)
 
 - **Alpaca_data  2023-3 | All | EN | MC | [Github](https://github.com/tatsu-lab/stanford_alpaca#data-release)**
@@ -974,6 +988,12 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Source: Collection and improvement of various NLP datasets
   - Instruction Category: Multi
 
+- **IEPile  2024-2 | All | EN & ZH | CI | [Paper](https://arxiv.org/abs/2402.14710) | [Github](https://github.com/zjunlp/IEPile) | [Dataset](https://huggingface.co/datasets/zjunlp/iepile)**
+  - Publisher: Zhejiang University et al.
+  - Size: 33 datasets
+  - License: CC-BY-NC-SA-4.0
+  - Source: Collection and improvement of various IE datasets
+  - Instruction Category: Extraction
 
 #### HG & CI
 
@@ -2130,6 +2150,16 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 1/-
   - Evaluation Category: Long text task
 
+- **CLongEval  2024-3 | All | ZH | HG & CI & MC | [Paper](https://arxiv.org/abs/2403.03514) | [Github](https://github.com/zexuanqiu/CLongEval) | [Dataset](https://huggingface.co/datasets/zexuanqiu22/CLongEval)**
+  - Publisher: The Chinese University of Hong Kong et al.
+  - Size: 7267 instances
+  - License: MIT
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Long text task capability
+  - Numbers of Evaluation Categories/Subcategories: 7/-
+  - Evaluation Category: Long story QA, Long conversation memory, Long story summarization, Stacked news labeling, Stacked typo detection, Key-passage retrieval, Table querying
+
 ### Tool
 
 - **API-Bank  2023-4 | All | EN & PL | HG & MC | [Paper](https://arxiv.org/pdf/2304.08244.pdf) | [Github](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/api-bank)**
@@ -2853,6 +2883,14 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - [SuperCLUE-RAG](https://github.com/CLUEbenchmark/SuperCLUE-RAG)
   - [SuperCLUE-Industry](https://github.com/CLUEbenchmark/SuperCLUE-Industry)
   - [SuperCLUE-Role](https://github.com/CLUEbenchmark/SuperCLUE-Role)
+
+- **[OpenLLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)**
+
+- **[OpenCompass](https://opencompass.org.cn/home)**
+
+- **[MTEB Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)**
+
+- **[C-MTEB Leaderboard](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)**
 
 ## Traditional NLP Datasets
 Diverging from instruction fine-tuning datasets, we categorize text datasets dedicated to natural language tasks before the widespread adoption of LLMs as traditional NLP datasets.
@@ -3750,6 +3788,13 @@ Multitask datasets hold significance as they can be concurrently utilized for di
   - Github: [https://github.com/nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc)
   - Dataset: [https://github.com/nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc)
 
+#### General
+
+- **ALLaVA-4V Data**: The multimodal instruction fine-tuning dataset for the ALLaVA model
+  - Paper: [ALLaVA: Harnessing GPT4V-synthesized Data for A Lite Vision-Language Model](https://arxiv.org/abs/2402.11684)
+  - Github: [https://github.com/FreedomIntelligence/ALLaVA](https://github.com/FreedomIntelligence/ALLaVA)
+  - Dataset: [https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V](https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V)
+
 ### Evaluation Datasets <a id="evaluation02"></a>
 
 #### Video Understanding
@@ -3766,10 +3811,36 @@ Multitask datasets hold significance as they can be concurrently utilized for di
   - Github: [https://github.com/OpenBMB/OlympiadBench](https://github.com/OpenBMB/OlympiadBench)
   - Dataset: [https://github.com/OpenBMB/OlympiadBench](https://github.com/OpenBMB/OlympiadBench)
 
+- **MMMU**: A new benchmark designed to evaluate MLLMs on massive multi-discipline tasks
+  - Paper: [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502)
+  - Github: [https://github.com/MMMU-Benchmark/MMMU](https://github.com/MMMU-Benchmark/MMMU)
+  - Dataset: [https://huggingface.co/datasets/MMMU/MMMU](https://huggingface.co/datasets/MMMU/MMMU)
+
 ## Retrieval Augmented Generation (RAG) Datasets <a id="retrieval-augmented-generation-rag-datasets"></a>
 
-- 
+- **CRUD-RAG**: A comprehensive Chinese benchmark for RAG
+  - Paper: [CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2401.17043)
+  - Github: [https://github.com/IAAR-Shanghai/CRUD_RAG](https://github.com/IAAR-Shanghai/CRUD_RAG)
+  - Dataset: [https://github.com/IAAR-Shanghai/CRUD_RAG](https://github.com/IAAR-Shanghai/CRUD_RAG)
 
+- **WikiEval**: To do correlation analysis of difference metrics proposed in RAGAS
+  - Paper: [RAGAS: Automated Evaluation of Retrieval Augmented Generation](https://arxiv.org/abs/2309.15217)
+  - Github: [https://github.com/explodinggradients/ragas](https://github.com/explodinggradients/ragas)
+  - Dataset: [https://huggingface.co/datasets/explodinggradients/WikiEval](https://huggingface.co/datasets/explodinggradients/WikiEval)
+
+- **RGB**: A benchmark for RAG
+  - Paper: [Benchmarking Large Language Models in Retrieval-Augmented Generation](https://arxiv.org/abs/2309.01431)
+  - Github: [https://github.com/chen700564/RGB](https://github.com/chen700564/RGB)
+  - Dataset: [https://github.com/chen700564/RGB](https://github.com/chen700564/RGB)
+
+- **RAG-Instruct-Benchmark-Tester**: An updated benchmarking test dataset for RAG use cases in the enterprise
+  - Dataset: [https://huggingface.co/datasets/llmware/rag_instruct_benchmark_tester](https://huggingface.co/datasets/llmware/rag_instruct_benchmark_tester)
+  - Website: [https://medium.com/@darrenoberst/how-accurate-is-rag-8f0706281fd9](https://medium.com/@darrenoberst/how-accurate-is-rag-8f0706281fd9)
+
+- **ARES**: An automated evaluation framework for RAG
+  - Paper: [ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2311.09476)
+  - Github: [https://github.com/stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES)
+  - Dataset: [https://github.com/stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES)
 
 ## Contact
 Contact information：
