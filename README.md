@@ -1,5 +1,6 @@
 # Awesome-LLMs-Datasets
-Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**. (Regular updates)
+- Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**. (Regular updates)
+- New dataset sections have been added: **Multi-modal Large Language Models (MLLMs) Datasets, Retrieval Augmented Generation (RAG) Datasets**. (Gradual updates)
 
 ## Paper
 The paper **["Datasets for Large Language Models: A Comprehensive Survey"](https://arxiv.org/abs/2402.18041)** has been released.（2024/2）
@@ -68,9 +69,15 @@ The following is a summary of the dataset information module.
 
 ## Changelog
 - （2024/01/17）Create the **Awesome-LLMs-Datasets** dataset repository.
-- （2024/02/02）Revise information for some datasets; add **[Dolma](https://browse.arxiv.org/abs/2402.00159)** corpus (General pre-training corpus-Multi).
-- （2024/02/15）Add **[Aya Collection](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG & CI & MC) and **[Aya Dataset](https://arxiv.org/abs/2402.06619)** (General instruction fine-tuning dataset-HG).
-- （2024/02/22）Add **[OpenMathInstruct-1](https://arxiv.org/abs/2402.10176)** (Domain-specific instruction fine-tuning dataset-Math) and **[FinBen](https://arxiv.org/abs/2402.12659)** (Evaluation dataset-Financial)
+- （2024/02/02）Revise information for some datasets; add **[Dolma](https://browse.arxiv.org/abs/2402.00159)** (Pre-training Corpora | General Pre-training Corpora | Multi-category).
+- （2024/02/15）Add **[Aya Collection](https://arxiv.org/abs/2402.06619)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG & CI & MC); **[Aya Dataset](https://arxiv.org/abs/2402.06619)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG).
+- （2024/02/22）Add **[OpenMathInstruct-1](https://arxiv.org/abs/2402.10176)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[FinBen](https://arxiv.org/abs/2402.12659)** (Evaluation Datasets | Financial).
+- （2024/04/05）
+  - Add new dataset sections: **(1) Multi-modal Large Language Models (MLLMs) Datasets; (2) Retrieval Augmented Generation (RAG) Datasets**.
+  - Add **[MMRS-1M](https://arxiv.org/abs/2401.16822)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[VideoChat2-IT](https://arxiv.org/abs/2311.17005)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[InstructDoc](https://arxiv.org/abs/2401.13313)** (MLLMs Datasets | Instruction Fine-tuning Datasets); **[MVBench](https://arxiv.org/abs/2311.17005)** (MLLMs Datasets | Evaluation Datasets); **[OlympiadBench](https://arxiv.org/abs/2402.14008)** (MLLMs Datasets | Evaluation Datasets).
+  - Add **[CLUE Benchmark Series](https://github.com/CLUEbenchmark)** (Evaluation Datasets | Evaluation Platform).
+  - Add **[NAH (Needle-in-a-Haystack)](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)** (Evaluation Datasets | Long Text); **[ToolEyes](https://arxiv.org/abs/2401.00741)** (Evaluation Datasets | Tool); **[UHGEval](https://arxiv.org/abs/2311.15296)** (Evaluation Datasets | Factuality).
+  - Add **[MathPile](https://arxiv.org/abs/2312.17120)** (Pre-training Corpora | Domain-specific Pre-training Corpora | Math).
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
@@ -87,6 +94,7 @@ The following is a summary of the dataset information module.
   - [Domain-specific Pre-training Corpora](#domain-specific-pre-training-corpora)
     - [Financial](#financial01)
     - [Medical](#medical01)
+    - [Math](#math03)
     - [Other](#other01)
 - **[Instruction Fine-tuning Datasets](#instruction-fine-tuning-datasets)**
   - [General Instruction Fine-tuning Datasets](#general-instruction-fine-tuning-datasets)
@@ -131,6 +139,7 @@ The following is a summary of the dataset information module.
   - [Multitask](#multitask01)
   - [Multilingual](#multilingual)
   - [Other](#other04)
+  - [Evaluation Platform](#evaluation-platform)
 - **[Traditional NLP Datasets](#traditional-nlp-datasets)**
   - [Question Answering](#question-answering)
     - [Reading Comprehension](#reading-comprehension)
@@ -154,6 +163,10 @@ The following is a summary of the dataset information module.
   - [Named Entity Recognition](#named-entity-recognition)
   - [Relation Extraction](#relation-extraction)
   - [Multitask](#multitask02)
+- **[Multi-modal Large Language Models (MLLMs) Datasets](#multi-modal-large-language-models-mllms-datasets)**
+  - [Instruction Fine-tuning Datasets](#instruction02)
+  - [Evaluation Datasets](#evaluation02)
+- **[Retrieval Augmented Generation (RAG) Datasets](#retrieval-augmented-generation-rag-datasets)**
 
 ## Pre-training Corpora
 The pre-training corpora are large collections of text data used during the pre-training process of LLMs.
@@ -547,7 +560,6 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
   - Category: Language Texts
   - Domain: Finance
 
-
 #### Medical <a id="medical01"></a>
 
 - **Medical-pt  2023-5 | All | ZH | CI | [Github](https://github.com/shibing624/MedicalGPT) | [Dataset](https://huggingface.co/datasets/shibing624/medical)**
@@ -566,6 +578,23 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
   - Category: Academic Materials
   - Domain: Medical
 
+#### Math <a id="math03"></a>
+
+- **Proof-Pile-2  2023-10 | All | EN | HG & CI | [Paper](https://arxiv.org/pdf/2310.10631.pdf) | [Github](https://github.com/EleutherAI/math-lm) | [Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2) | [Website](https://blog.eleuther.ai/llemma/)**
+  - Publisher: Princeton University et al.
+  - Size: 55 B Tokens
+  - License: -
+  - Source: ArXiv, OpenWebMath, AlgebraicStack
+  - Category: Multi
+  - Domain: Mathematics
+
+- **MathPile  2023-12 | All | EN | HG | [Paper](https://arxiv.org/abs/2312.17120) | [Github](https://github.com/GAIR-NLP/MathPile) | [Dataset](https://huggingface.co/datasets/GAIR/MathPile)**
+  - Publisher: Shanghai Jiao Tong University et al.
+  - Size: 9.5 B Tokens
+  - License: CC-BY-NC-SA-4.0
+  - Source: Textbooks, Wikipedia, ProofWiki, CommonCrawl, StackExchange, arXiv
+  - Category: Multi
+  - Domain: Mathematics
 
 #### Other <a id="other01"></a>
 
@@ -584,15 +613,6 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
   - Source: Technology documents, engineering construction information, statistical data, etc.
   - Category: Multi
   - Domain: Transportation
-
-- **Proof-Pile-2  2023-10 | All | EN | HG & CI | [Paper](https://arxiv.org/pdf/2310.10631.pdf) | [Github](https://github.com/EleutherAI/math-lm) | [Dataset](https://huggingface.co/datasets/EleutherAI/proof-pile-2) | [Website](https://blog.eleuther.ai/llemma/)**
-  - Publisher: Princeton University et al.
-  - Size: 55 B Tokens
-  - License: -
-  - Source: ArXiv, OpenWebMath, AlgebraicStack
-  - Category: Multi
-  - Domain: Mathematics
-
 
 ## Instruction Fine-tuning Datasets
 The instruction fine-tuning datasets consists of a series of text pairs comprising “instruction inputs” and “answer outputs.” “Instruction inputs” represent requests made by humans to the model. There are various types of instructions, such as classification, summarization, paraphrasing, etc. “Answer outputs” are the responses generated by the model following the instruction and aligning with human expectations.
@@ -2100,6 +2120,15 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 2/4
   - Evaluation Category: Long dependency tasks, Short dependency tasks
 
+- **NAH (Needle-in-a-Haystack)  2023-11 | All | EN | - | [Github](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)**
+  - Publisher: gkamradt et al.
+  - Size: -
+  - License: MIT
+  - Question Type: SQ
+  - Evaluation Method: ME
+  - Focus: Long text task capability
+  - Numbers of Evaluation Categories/Subcategories: 1/-
+  - Evaluation Category: Long text task
 
 ### Tool
 
@@ -2133,6 +2162,15 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 8/-
   - Evaluation Category: Open weather, The cat API, Home search, Trip booking, Google sheets, Virtual home, Web shop, Tabletop
 
+- **ToolEyes  2024-1 | All | EN | HG | [Paper](https://arxiv.org/abs/2401.00741) | [Github](https://github.com/Junjie-Ye/ToolEyes) | [Datasets](https://github.com/Junjie-Ye/ToolEyes)**
+  - Publisher: Fudan University
+  - Size: 382 instances
+  - License: Apache-2.0
+  - Question Type: SQ
+  - Evaluation Method: CE & ME
+  - Focus: The LLMs' tool learning capabilities in authentic scenarios
+  - Numbers of Evaluation Categories/Subcategories: 7/41
+  - Evaluation Category: Text generation, Data understanding, Real-time search, Application manipulation, Personal life, Information retrieval, Financial transactions
 
 ### Agent
 
@@ -2565,6 +2603,15 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 38/-
   - Evaluation Category: Health, Law, Conspiracies, Fiction, Misconceptions, Paranormal, Economics, Biology, Language, Indexical etc.
 
+- **UHGEval  2023-11 | All | ZH | HG & MC | [Paper](https://arxiv.org/abs/2311.15296) | [Github](https://github.com/IAAR-Shanghai/UHGEval) | [Dataset](https://github.com/IAAR-Shanghai/UHGEval-dataset)**
+  - Publisher: Renmin University of China et al.
+  - Size: 5141 instances
+  - License: Apache-2.0
+  - Question Type: Multi
+  - Evaluation Method: CE 
+  - Focus: The factuality of LLMs
+  - Numbers of Evaluation Categories/Subcategories: 3/4
+  - Evaluation Category: Discriminative, Selective, Generative
 
 ### Evaluation
 
@@ -2794,6 +2841,18 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Evaluation Category: Anger, Anxiety, Depression, Frustration, Jealous, Guilt, Fear, Embarrassment
   - Domain: Sentiment
 
+### Evaluation Platform
+
+- **[CLUE Benchmark Series](https://github.com/CLUEbenchmark)**
+  - [SuperCLUE-Agent](https://github.com/CLUEbenchmark/SuperCLUE-Agent)
+  - [SuperCLUE-Auto](https://github.com/CLUEbenchmark/SuperCLUE-Auto)
+  - [SuperCLUE-Math6](https://github.com/CLUEbenchmark/SuperCLUE-Math6)
+  - [SuperCLUE-Safety](https://github.com/CLUEbenchmark/SuperCLUE-Safety)
+  - [SuperCLUE-Code3](https://github.com/CLUEbenchmark/SuperCLUE-Code3)
+  - [SuperCLUE-Video](https://github.com/CLUEbenchmark/SuperCLUE-Video)
+  - [SuperCLUE-RAG](https://github.com/CLUEbenchmark/SuperCLUE-RAG)
+  - [SuperCLUE-Industry](https://github.com/CLUEbenchmark/SuperCLUE-Industry)
+  - [SuperCLUE-Role](https://github.com/CLUEbenchmark/SuperCLUE-Role)
 
 ## Traditional NLP Datasets
 Diverging from instruction fine-tuning datasets, we categorize text datasets dedicated to natural language tasks before the widespread adoption of LLMs as traditional NLP datasets.
@@ -3667,6 +3726,50 @@ Multitask datasets hold significance as they can be concurrently utilized for di
   - Publisher: Zhejiang University et al.
   - Train/Dev/Test/All Size: -/-/-/-
   - License: Apache-2.0
+
+## Multi-modal Large Language Models (MLLMs) Datasets <a id="multi-modal-large-language-models-mllms-datasets"></a>
+
+### Instruction Fine-tuning Datasets <a id="instruction02"></a>
+
+#### Remote Sensing
+
+- **MMRS-1M**: Multi-sensor remote sensing instruction dataset
+  - Paper: [EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain](https://arxiv.org/abs/2401.16822)
+  - Github: [https://github.com/wivizhang/EarthGPT](https://github.com/wivizhang/EarthGPT)
+
+#### Images + Videos
+
+- **VideoChat2-IT**: Instruction fine-tuning dataset for images/videos
+  - Paper: [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005)
+  - Dataset: [https://huggingface.co/datasets/OpenGVLab/VideoChat2-IT](https://huggingface.co/datasets/OpenGVLab/VideoChat2-IT)
+
+#### Visual Document Understanding
+
+- **InstructDoc**: A dataset for zero-shot generalization of visual document understanding
+  - Paper: [InstructDoc: A Dataset for Zero-Shot Generalization of Visual Document Understanding with Instructions](https://arxiv.org/abs/2401.13313)
+  - Github: [https://github.com/nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc)
+  - Dataset: [https://github.com/nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc)
+
+### Evaluation Datasets <a id="evaluation02"></a>
+
+#### Video Understanding
+
+- **MVBench**: A comprehensive multi-modal video understanding benchmark
+  - Paper: [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005)
+  - Github: [https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2)
+  - Dataset: [https://huggingface.co/datasets/OpenGVLab/MVBench](https://huggingface.co/datasets/OpenGVLab/MVBench)
+
+#### Subject
+
+- **OlympiadBench**: An Olympiad-level bilingual multimodal scientific benchmark
+  - Paper: [OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems](https://arxiv.org/abs/2402.14008)
+  - Github: [https://github.com/OpenBMB/OlympiadBench](https://github.com/OpenBMB/OlympiadBench)
+  - Dataset: [https://github.com/OpenBMB/OlympiadBench](https://github.com/OpenBMB/OlympiadBench)
+
+## Retrieval Augmented Generation (RAG) Datasets <a id="retrieval-augmented-generation-rag-datasets"></a>
+
+- 
+
 
 ## Contact
 Contact information：
