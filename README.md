@@ -80,6 +80,12 @@ The following is a summary of the dataset information module.
   - Add **[MathPile](https://arxiv.org/abs/2312.17120)** (Pre-training Corpora | Domain-specific Pre-training Corpora | Math); **[WanJuan-CC](https://arxiv.org/abs/2402.19282)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
   - Add **[IEPile](https://arxiv.org/abs/2402.14710)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | CI); **[InstructIE](https://arxiv.org/abs/2305.11527)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG).
   - Add **[CRUD-RAG](https://arxiv.org/abs/2401.17043)** (RAG Datasets); **[WikiEval](https://arxiv.org/abs/2309.15217)** (RAG Datasets); **[RGB](https://arxiv.org/abs/2309.01431)** (RAG Datasets); **[RAG-Instruct-Benchmark-Tester](https://huggingface.co/datasets/llmware/rag_instruct_benchmark_tester)** (RAG Datasets); **[ARES](https://arxiv.org/abs/2311.09476)** (RAG Datasets).
+- （2024/04/06）
+  - Add **[GPQA](https://arxiv.org/abs/2311.12022)** (Evaluation Datasets | Subject); **[MGSM](https://arxiv.org/abs/2210.03057)** (Evaluation Datasets | Multilingual); **[HaluEval-Wild](https://arxiv.org/abs/2403.04307)** (Evaluation Datasets | Factuality); **[CMATH](https://arxiv.org/abs/2306.16636)** (Evaluation Datasets | Subject); **[FineMath](https://arxiv.org/abs/2403.07747)** (Evaluation Datasets | Subject); **[RealTime QA](https://arxiv.org/abs/2207.13332)** (Evaluation Datasets | Factuality); **[WYWEB](https://aclanthology.org/2023.findings-acl.204/)** (Evaluation Datasets | Subject); **[ChineseFactEval](https://gair-nlp.github.io/ChineseFactEval/)** (Evaluation Datasets | Factuality); **[Counting-Stars](https://arxiv.org/abs/2403.11802)** (Evaluation Datasets | Long Text).
+  - Add **[SlimPajama](https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[MassiveText](https://arxiv.org/abs/2112.11446)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[MADLAD-400](https://arxiv.org/abs/2309.04662)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[Minerva](https://arxiv.org/abs/2206.14858)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[CCAligned](https://aclanthology.org/2020.emnlp-main.480/)** (Pre-training Corpora | General Pre-training Corpora | Parallel Corpus); **[WikiMatrix](https://aclanthology.org/2021.eacl-main.115/)** (Pre-training Corpora | General Pre-training Corpora | Parallel Corpus); **[OpenWebMath](https://arxiv.org/abs/2310.06786)** (Pre-training Corpora | Domain-specific Pre-training Corpora | Math).
+  - Add **[WebQuestions](https://aclanthology.org/D13-1160.pdf)** (Traditional NLP Datasets | Question Answering | Knowledge QA).
+  - Add **[ALCE](https://aclanthology.org/2023.emnlp-main.398/)** (RAG Datasets).
+  - Add **[AlphaFin](https://arxiv.org/abs/2403.12582)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Other); **[COIG-CQIA](https://arxiv.org/abs/2403.18058)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG & CI).
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
@@ -266,6 +272,12 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: CC-BY-4.0
   - Source: Common Crawl
 
+- **MADLAD-400  2023-9 | All | Multi (419) | HG | [Paper](https://arxiv.org/abs/2309.04662) | [Github](https://github.com/google-research/google-research/tree/master/madlad_400) | [Dataset](https://huggingface.co/datasets/allenai/MADLAD-400)**
+  - Publisher: Google DeepMind et al.
+  - Size: 2.8 T Tokens
+  - License: ODL-BY
+  - Source: Common Crawl
+
 #### Language Texts
 
 - **ANC  2003-X | All | EN | HG | [Website](https://anc.org/)**
@@ -393,6 +405,17 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: -
   - Source: United Nations documents
 
+- **CCAligned  2020-11 | All | Multi (138) | HG | [Paper](https://aclanthology.org/2020.emnlp-main.480/) | [Dataset](https://huggingface.co/datasets/ccaligned_multilingual)**
+  - Publisher: Facebook AI et al.
+  - Size: 392 M URL pairs
+  - License: -
+  - Source: Common Crawl
+
+- **WikiMatrix  2021-4 | All | Multi (85) | HG | [Paper](https://aclanthology.org/2021.eacl-main.115/) | [Github](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | [Dataset](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix)**
+  - Publisher: Facebook AI et al.
+  - Size: 134 M parallel sentences
+  - License: CC-BY-SA
+  - Source: Wikipedia
 
 #### Social Media
 
@@ -510,6 +533,24 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - License: MR Agreement
   - Source: Project Gutenberg, C4, Reddit, etc.
 
+- **SlimPajama  2023-6 | All | EN | HG & CI | [Github](https://github.com/Cerebras/modelzoo/tree/main/modelzoo/transformers/data_processing/slimpajama) | [Dataset](https://huggingface.co/datasets/cerebras/SlimPajama-627B) | [Website](https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama)**
+  - Publisher: Cerebras et al.
+  - Size: 627 B Tokens
+  - License: -
+  - Source: Common Crawl, C4, Github, etc.
+
+- **MassiveText  2021-12 | Not | Multi | HG & CI | [Paper](https://arxiv.org/abs/2112.11446)**
+  - Publisher: Google DeepMind
+  - Size: 10.5 TB
+  - License: -
+  - Source: MassiveWeb, C4, books, etc.
+
+- **Minerva  2022-6 | Not | EN | HG | [Paper](https://arxiv.org/abs/2206.14858)**
+  - Publisher: Google Research
+  - Size: 38.5 B Tokens
+  - License: -
+  - Source: arXiv, Webpages, etc.
+
 ### Domain-specific Pre-training Corpora
 Domain-specific pre-training corpora are LLM datasets customized for specific fields or topics. The type of corpus is typically employed in the incremental pre-training phase of LLMs. **Corpora are classified based on data domains.**
 
@@ -601,6 +642,14 @@ Domain-specific pre-training corpora are LLM datasets customized for specific fi
   - License: CC-BY-NC-SA-4.0
   - Source: Textbooks, Wikipedia, ProofWiki, CommonCrawl, StackExchange, arXiv
   - Category: Multi
+  - Domain: Mathematics
+
+- **OpenWebMath  2023-10 | All | EN | HG | [Paper](https://arxiv.org/abs/2310.06786) | [Github](https://github.com/keirp/OpenWebMath) | [Dataset](https://huggingface.co/datasets/open-web-math/open-web-math)**
+  - Publisher: University of Toronto et al.
+  - Size: 14.7 B Tokens
+  - License: ODC-BY-1.0
+  - Source: Common Crawl
+  - Category: Webpages
   - Domain: Mathematics
 
 #### Other <a id="other01"></a>
@@ -1011,6 +1060,12 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Source: Manually select from various types of data
   - Instruction Category: Multi
 
+- **COIG-CQIA  2024-3 | All | ZH | HG & CI | [Paper](https://arxiv.org/abs/2403.18058) | [Dataset](https://huggingface.co/datasets/m-a-p/COIG-CQIA)**
+  - Publisher: Shenzhen Institute of Advanced Technology et al.
+  - Size: 48375 instances
+  - License: -
+  - Source: Q&A communities, Wikipedia, examinations, existing NLP datasets
+  - Instruction Category: Multi
 
 #### HG & MC
 
@@ -1406,6 +1461,14 @@ The domain-specific instruction fine-tuning datasets are constructed for a parti
   - Size: 246K instances
   - License: Apache-2.0
   - Source: Open source datasets & Manually collect financial data & ChatGPT assistance
+  - Instruction Category: Multi
+  - Domain: Financial
+
+- **AlphaFin  2024-3 | All | EN & ZH | HG & CI & MC | [Paper](https://arxiv.org/abs/2403.12582) | [Github](https://github.com/AlphaFin-proj/AlphaFin) | [Dataset](https://huggingface.co/datasets/AlphaFin/AlphaFin-dataset-v1)**
+  - Publisher: South China University of Technology et al.
+  - Size: 167362 instances
+  - License: Apache-2.0
+  - Source: Traditional research datasets, real-time financial data, handwritten CoT data
   - Instruction Category: Multi
   - Domain: Financial
 
@@ -1888,6 +1951,45 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 5/67
   - Evaluation Category: Social science, STEM, Humanities, China specific, Other
 
+- **GPQA  2023-11 | All | EN | HG | [Paper](https://arxiv.org/abs/2311.12022) | [Github](https://github.com/idavidrein/gpqa) | [Dataset](https://huggingface.co/datasets/Idavidrein/gpqa)**
+  - Publisher: New York University et al.
+  - Size: 448 instances
+  - License: CC-BY-4.0
+  - Question Type: OQ
+  - Evaluation Method: CE
+  - Focus: The disciplinary knowledge in the fields of biology, physics, and chemistry
+  - Numbers of Evaluation Categories/Subcategories: 3/16
+  - Evaluation Category: Biology, Physics, Chemistry
+
+- **CMATH  2023-6 | All | ZH | HG | [Paper](https://arxiv.org/abs/2306.16636) | [Github](https://github.com/XiaoMi/cmath) | [Dataset](https://huggingface.co/datasets/weitianwen/cmath)**
+  - Publisher: Xiaomi AI Lab
+  - Size: 1698 instances
+  - License: CC-BY-4.0
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Elementary school math word problems
+  - Numbers of Evaluation Categories/Subcategories: 6/-
+  - Evaluation Category: Grades 1 to 6 in elementary school
+
+- **FineMath  2024-3 | Not | ZH | HG | [Paper](https://arxiv.org/abs/2403.07747)**
+  - Publisher: Tianjin University et al.
+  - Size: 1584 instances
+  - License: -
+  - Question Type: Multi
+  - Evaluation Method: -
+  - Focus: Elementary school math word problems
+  - Numbers of Evaluation Categories/Subcategories: 6/17
+  - Evaluation Category: Number & Operations, Measurement, Data analysis & Probability, Algebra, Geometry, Others
+
+- **WYWEB  2023-7 | All | ZH | HG & CI | [Paper](https://aclanthology.org/2023.findings-acl.204/) | [Github](https://github.com/baudzhou/WYWEB) | [Dataset](https://github.com/baudzhou/WYWEB) | [Website](http://www.dcd.zju.edu.cn/wyweb/)**
+  - Publisher: Zhejiang University et al.
+  - Size: 467200 instances
+  - License: -
+  - Question Type: Multi
+  - Evaluation Method: CE
+  - Focus: Classical Chinese
+  - Numbers of Evaluation Categories/Subcategories: 5/9
+  - Evaluation Category: Sequence labeling, Sentence classification, Token similarity, Reading comprehension, Translation
 
 ### NLU
 
@@ -2159,6 +2261,16 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Focus: Long text task capability
   - Numbers of Evaluation Categories/Subcategories: 7/-
   - Evaluation Category: Long story QA, Long conversation memory, Long story summarization, Stacked news labeling, Stacked typo detection, Key-passage retrieval, Table querying
+
+- **Counting-Stars  2024-3 | All | ZH | HG | [Paper](https://arxiv.org/abs/2403.11802) | [Github](https://github.com/nick7nlp/counting-stars) | [Dataset](https://github.com/nick7nlp/counting-stars)**
+  - Publisher: Tencent MLPD
+  - Size: -
+  - License: -
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Long text task capability
+  - Numbers of Evaluation Categories/Subcategories: 1/-
+  - Evaluation Category: Long text task
 
 ### Tool
 
@@ -2643,6 +2755,36 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 3/4
   - Evaluation Category: Discriminative, Selective, Generative
 
+- **HaluEval-Wild  2024-3 | Not | EN | HG & CI & MC | [Paper](https://arxiv.org/abs/2403.04307)**
+  - Publisher: Carnegie Mellon University
+  - Size: 500 instances
+  - License: -
+  - Question Type: SQ
+  - Evaluation Method: -
+  - Focus: The factuality of LLMs
+  - Numbers of Evaluation Categories/Subcategories: 5/-
+  - Evaluation Category: Out-of-scope information, Complex reasoning, Inappropriate content, Beyond-modality interaction, Confused / Erroneous queries
+
+- **RealTime QA  2022-7 | All | EN | HG | [Paper](https://arxiv.org/abs/2207.13332) | [Github](https://github.com/realtimeqa/realtimeqa_public) | [Dataset](https://github.com/realtimeqa/realtimeqa_public) | [Website](https://realtimeqa.github.io/)**
+  - Publisher: Toyota Technological Institute et al.
+  - Size: -
+  - License: -
+  - Question Type: Multi
+  - Evaluation Method: CE
+  - Focus: The factuality of LLMs
+  - Numbers of Evaluation Categories/Subcategories: 1/-
+  - Evaluation Category: Latest knowledge Q&A
+
+- **ChineseFactEval  2023-9 | All | ZH | HG & MC | [Github](https://github.com/GAIR-NLP/factool) | [Dataset](https://github.com/GAIR-NLP/factool/tree/main/datasets/chinese) | [Website](https://gair-nlp.github.io/ChineseFactEval/)**
+  - Publisher: Shanghai Jiao Tong University et al.
+  - Size: 125 instances
+  - License: Apache-2.0
+  - Question Type: SQ
+  - Evaluation Method: -
+  - Focus: The factuality of LLMs
+  - Numbers of Evaluation Categories/Subcategories: 7/-
+  - Evaluation Category: General domain, Scientific research, Medical, Law, Finance, Math, Chinese modern history
+
 ### Evaluation
 
 - **FairEval  2023-5 | All | EN | CI | [Paper](https://arxiv.org/pdf/2305.17926v2.pdf) | [Github](https://github.com/i-Eval/FairEval) | [Dataset](https://github.com/i-Eval/FairEval)**
@@ -2791,6 +2933,15 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 4/9
   - Evaluation Category: Classification, Structured prediction, QA, Retrieval
 
+- **MGSM  2022-10 | All | Multi (10) | CI | [Paper](https://arxiv.org/abs/2210.03057) | [Github](https://github.com/google-research/url-nlp) | [Dataset](https://huggingface.co/datasets/juletxara/mgsm)**
+  - Publisher: Google Research et al.
+  - Size: 2580 instances
+  - License: CC-BY-SA-4.0
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Multilingual mathematical reasoning abilities
+  - Numbers of Evaluation Categories/Subcategories: 1/-
+  - Evaluation Category: Math
 
 ### Other <a id="other04"></a>
 
@@ -3177,6 +3328,10 @@ In the knowledge QA task, models respond to questions by leveraging world knowle
   - Train/Dev/Test/All Size: 50610/6337/6337/63284
   - License: Apache-2.0
 
+- **WebQuestions  2013-10 | EN | [Paper](https://aclanthology.org/D13-1160.pdf) | [Dataset](https://huggingface.co/datasets/web_questions)**
+  - Publisher: Stanford University
+  - Train/Dev/Test/All Size: 3778/-/2032/5810
+  - License: -
 
 #### Reasoning QA
 The focal point of reasoning QA tasks is the requirement for models to apply abilities such as logical reasoning, multi-step inference, and causal reasoning in answering questions. 
@@ -3841,6 +3996,11 @@ Multitask datasets hold significance as they can be concurrently utilized for di
   - Paper: [ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2311.09476)
   - Github: [https://github.com/stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES)
   - Dataset: [https://github.com/stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES)
+
+- **ALCE**: The quality assessment benchmark for context and responses
+  - Paper: [Enabling Large Language Models to Generate Text with Citations](https://aclanthology.org/2023.emnlp-main.398/)
+  - Github: [https://github.com/princeton-nlp/ALCE](https://github.com/princeton-nlp/ALCE)
+  - Dataset: [https://huggingface.co/datasets/princeton-nlp/ALCE-data](https://huggingface.co/datasets/princeton-nlp/ALCE-data)
 
 ## Contact
 Contact information：
