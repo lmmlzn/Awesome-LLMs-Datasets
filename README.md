@@ -93,7 +93,7 @@ The following is a summary of the dataset information module.
   - Add **[OpenHermesPreferences](https://huggingface.co/datasets/argilla/OpenHermesPreferences)** (Preference Datasets | Sort); **[huozi_rlhf_data](https://github.com/HIT-SCIR/huozi/blob/main/data/huozi-rlhf/huozi_rlhf_data.csv)** (Preference Datasets | Vote); **[HelpSteer](https://arxiv.org/abs/2311.09528)** (Preference Datasets | Score); **[HelpSteer2](https://arxiv.org/abs/2406.08673)** (Preference Datasets | Score).
   - Add **[MMT-Bench](https://arxiv.org/abs/2404.16006)** (MLLMs Datasets | Evaluation Datasets); **[mOSCAR](https://arxiv.org/abs/2406.08707)** (MLLMs Datasets | Pre-training Corpora); **[MM-NIAH](https://arxiv.org/abs/2406.07230)** (MLLMs Datasets | Evaluation Datasets).
   - Add **[CRAG](https://arxiv.org/abs/2406.04744)** (RAG Datasets).
-- we will release the dataset information in CSV format.
+- We will release the dataset information in CSV format.
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
