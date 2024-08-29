@@ -4271,7 +4271,7 @@ documents
 
 #### Medical
 
-- **MutiMed**: A benchmark designed to evaluate and enable large-scale learning across a wide spectrum of medical modalities and tasks
+- **MultiMed**: A benchmark designed to evaluate and enable large-scale learning across a wide spectrum of medical modalities and tasks
   - Paper: [MultiMed: Massively Multimodal and Multitask Medical Understanding](https://www.arxiv.org/abs/2408.12682)
 
 ## Retrieval Augmented Generation (RAG) Datasets <a id="retrieval-augmented-generation-rag-datasets"></a>
