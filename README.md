@@ -1904,7 +1904,7 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 10/150
   - Evaluation Category: Chinese culture, Classification, Code, Commonsense, Creative NLG, Evaluation, Grammar, Linguistic, Motion detection, NER
 
-- **WildBench 2024-6 | All | EN | HG & CI | [Paper]https://arxiv.org/abs/2406.04770] | [Github](https://github.com/allenai/WildBench) | [Dataset](https://huggingface.co/datasets/allenai/WildBench) | [Website](https://huggingface.co/spaces/allenai/WildBench)**
+- **WildBench 2024-6 | All | EN | HG & CI | [Paper](https://arxiv.org/abs/2406.04770) | [Github](https://github.com/allenai/WildBench) | [Dataset](https://huggingface.co/datasets/allenai/WildBench) | [Website](https://huggingface.co/spaces/allenai/WildBench)**
   - Publisher: Allen Institute for AI et al.
   - Size: 1024 instances
   - License: AI2 ImpACT License
