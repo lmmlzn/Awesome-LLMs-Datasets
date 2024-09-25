@@ -1,4 +1,10 @@
-# Awesome-LLMs-Datasets
+<div align="center">
+    <h1>Awesome LLMs Datasets</h1>
+    <a href="https://awesome.re">
+        <img src="https://awesome.re/badge.svg"/>
+    </a>
+</div>
+
 - Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**. (Regular updates)
 - New dataset sections have been added: **Multi-modal Large Language Models (MLLMs) Datasets, Retrieval Augmented Generation (RAG) Datasets**. (Gradual updates)
 
