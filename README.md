@@ -92,7 +92,7 @@ The following is a summary of the dataset information module.
 - （2024/06/15）
   - Add **[CLUE](https://arxiv.org/abs/2404.04067)** (Evaluation Datasets | Medical); **[CHC-Bench](https://arxiv.org/abs/2404.04167)** (Evaluation Datasets | General); **[CIF-Bench](https://arxiv.org/abs/2402.13109)** (Evaluation Datasets | General); **[ACLUE](https://aclanthology.org/2023.alp-1.9/)** (Evaluation Datasets | Subject); **[LeSC](https://arxiv.org/abs/2405.05741)** (Evaluation Datasets | NLU); **[AlignBench](https://arxiv.org/abs/2311.18743)** (Evaluation Datasets | Multitask); **[SciKnowEval](https://arxiv.org/abs/2406.09098)** (Evaluation Datasets | Subject).
   - Add **[MAP-CC](https://arxiv.org/abs/2404.04167)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[CCI 2.0](https://huggingface.co/datasets/BAAI/CCI2-Data)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
-  - Add **[WildChat](https://arxiv.org/abs/2405.01470)** (Instruction Fine-tuning Datasets | MC).
+  - Add **[WildChat](https://arxiv.org/abs/2405.01470)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | MC).
   - Add **[OpenHermesPreferences](https://huggingface.co/datasets/argilla/OpenHermesPreferences)** (Preference Datasets | Sort); **[huozi_rlhf_data](https://github.com/HIT-SCIR/huozi/blob/main/data/huozi-rlhf/huozi_rlhf_data.csv)** (Preference Datasets | Vote); **[HelpSteer](https://arxiv.org/abs/2311.09528)** (Preference Datasets | Score); **[HelpSteer2](https://arxiv.org/abs/2406.08673)** (Preference Datasets | Score).
   - Add **[MMT-Bench](https://arxiv.org/abs/2404.16006)** (MLLMs Datasets | Evaluation Datasets); **[mOSCAR](https://arxiv.org/abs/2406.08707)** (MLLMs Datasets | Pre-training Corpora); **[MM-NIAH](https://arxiv.org/abs/2406.07230)** (MLLMs Datasets | Evaluation Datasets).
   - Add **[CRAG](https://arxiv.org/abs/2406.04744)** (RAG Datasets).
@@ -100,9 +100,9 @@ The following is a summary of the dataset information module.
   - Add **[GameBench](https://arxiv.org/abs/2406.06613)** (Evaluation Datasets | Reasoning); **[HalluDial](https://arxiv.org/abs/2406.07070)** (Evaluation Datasets | Factuality); **[WildBench](https://arxiv.org/abs/2406.04770)** (Evaluation Datasets | General); **[DomainEval](https://arxiv.org/abs/2408.13204)** (Evaluation Datasets | Code); **[SysBench](https://arxiv.org/abs/2408.10943)** (Evaluation Datasets | General); **[KoBEST](https://aclanthology.org/2022.coling-1.325/)** (Evaluation Datasets | NLU); **[SarcasmBench](https://arxiv.org/abs/2408.11319)** (Evaluation Datasets | NLU); **[C<sup>3</sup> Bench](https://arxiv.org/abs/2405.17732)** (Evaluation Datasets | Subject); **[TableBench](https://www.arxiv.org/abs/2408.09174)** (Evaluation Datasets | Reasoning); **[ArabLegalEval](https://www.arxiv.org/abs/2408.07983)** (Evaluation Datasets | Law).
   - Add **[MultiTrust](https://arxiv.org/abs/2406.07057)** (MLLMs Datasets | Evaluation Datasets); **[OBELISC](https://arxiv.org/abs/2306.16527)** (MLLMs Datasets | Pre-training Corpora); **[MultiMed](https://www.arxiv.org/abs/2408.12682)** (MLLMs Datasets | Evaluation Datasets).
   - Add **[DCLM](https://arxiv.org/abs/2406.11794)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
-  - Add **[Lithuanian-QA-v1](https://www.arxiv.org/abs/2408.12963)** (Instruction Fine-tuning Datasets | CI & MC); **[REInstruct](https://www.arxiv.org/abs/2408.10663)** (Instruction Fine-tuning Datasets | HG & CI & MC); **[KoLLM-Converations](https://huggingface.co/datasets/davidkim205/kollm-converations)** (Instruction Fine-tuning Datasets | CI).
+  - Add **[Lithuanian-QA-v1](https://www.arxiv.org/abs/2408.12963)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | CI & MC); **[REInstruct](https://www.arxiv.org/abs/2408.10663)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG & CI & MC); **[KoLLM-Converations](https://huggingface.co/datasets/davidkim205/kollm-converations)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | CI).
 - （2024/09/04）
-  - Add **[LongWriter-6K](https://arxiv.org/abs/2408.07055)** (Instruction Fine-tuning Datasets | CI & MC).
+  - Add **[LongWriter-6K](https://arxiv.org/abs/2408.07055)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | CI & MC).
   - Add **[MedTrinity-25M](https://www.arxiv.org/abs/2408.02900)** (MLLMs Datasets | Evaluation Datasets); **[MMIU](https://www.arxiv.org/abs/2408.02718)** (MLLMs Datasets | Evaluation Datasets).
   - Add **[Expository-Prose-V1](https://www.arxiv.org/abs/2408.03506)** (Pre-training Corpora | General Pre-training Corpora | Multi-category).
   - Add **[DebateQA](https://arxiv.org/abs/2408.01419)** (Evaluation Datasets | Knowledge); **[NeedleBench](https://arxiv.org/pdf/2407.11963)** (Evaluation Datasets | Long Text); **[ArabicMMLU](https://aclanthology.org/2024.findings-acl.334/)** (Evaluation Datasets | Subject); **[PersianMMLU](https://arxiv.org/abs/2404.06644)** (Evaluation Datasets | Subject); **[TMMLU+](https://arxiv.org/abs/2403.01858)** (Evaluation Datasets | Subject).
@@ -112,7 +112,8 @@ The following is a summary of the dataset information module.
   - Add **[MME-RealWorld](https://arxiv.org/abs/2408.13257)** (MLLMs Datasets | Evaluation Datasets); **[II-Bench](https://arxiv.org/abs/2406.05862)** (MLLMs Datasets | Evaluation Datasets); **[CII-Bench](https://arxiv.org/abs/2410.13854)** (MLLMs Datasets | Evaluation Datasets); **[ALM-Bench](https://arxiv.org/abs/2411.16508)** (MLLMs Datasets | Evaluation Datasets).
   - Add **[MaLA](https://arxiv.org/abs/2409.17892)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[CCI3.0-HQ](https://arxiv.org/abs/2410.18505)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[GlotCC](https://arxiv.org/abs/2410.23825)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[ChineseWebText 2.0](https://arxiv.org/abs/2411.19668)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[ChineseWebText 1.0](https://arxiv.org/abs/2311.01149)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[SkyPile](https://arxiv.org/abs/2310.19341)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
   - Add **[ViDoRe](https://arxiv.org/abs/2407.01449)** (RAG Datasets); **[M2KR](https://arxiv.org/abs/2402.08327)** (RAG Datasets); **[M-BEIR](https://arxiv.org/abs/2311.17136)** (RAG Datasets); **[MRAG-Bench](https://arxiv.org/abs/2410.08182)** (RAG Datasets).
-  - Add **[SlimOrca](https://huggingface.co/datasets/Open-Orca/SlimOrca)** (Instruction Fine-tuning Datasets | CI & MC).
+  - Add **[SlimOrca](https://huggingface.co/datasets/Open-Orca/SlimOrca)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | CI & MC); **[GPTeacher](https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | MC); **[OrcaMathWordProblems](https://arxiv.org/abs/2402.14830)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[MathInstruct](https://arxiv.org/abs/2309.05653)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[MetaMathQA](https://arxiv.org/abs/2309.12284)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[Magicoder-OSS-Instruct-75K](https://arxiv.org/abs/2312.02120)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Code).
+  - Add **[UltraInteract](https://arxiv.org/abs/2404.02078)** (Preference Datasets | Other).
 - We will release the dataset information in CSV format (2025).
 
 ## Table of Contents
@@ -1024,6 +1025,14 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Source: Conversations between users and ChatGPT, GPT-4
   - Instruction Category: Multi
 
+- **GPTeacher 2023-4 | All | EN | MC | [Github](https://github.com/teknium1/GPTeacher) | [Dataset](https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct
+)**
+  - Publisher: teknium
+  - Size: 89260 instances
+  - License: MIT
+  - Source: Generated by GPT-4
+  - Instruction Category: Multi
+
 #### Collection and Improvement of Existing Datasets (CI)
 
 - **CrossFit  2021-4 | All | EN | CI | [Paper](https://arxiv.org/pdf/2104.08835.pdf) | [Github](https://github.com/INK-USC/CrossFit)**
@@ -1491,6 +1500,13 @@ The domain-specific instruction fine-tuning datasets are constructed for a parti
   - Instruction Category: Code
   - Domain: Code
 
+- **Magicoder-OSS-Instruct-75K 2023-12 | All | EN | CI & MC | [Paper](https://arxiv.org/abs/2312.02120) | [Github](https://github.com/ise-uiuc/magicoder) | [Dataset](https://huggingface.co/datasets/ise-uiuc/Magicoder-OSS-Instruct-75K)** 
+  - Publisher: University of Illinois at Urbana-Champaign et al.
+  - Size: 75197 instances
+  - License: MIT
+  - Source: Generated by prompting LLMs with seed code snippets from open-source repositories to create diverse coding problems and solutions
+  - Instruction Category: Code
+  - Domain: Code
 
 #### Legal
 
@@ -1526,7 +1542,6 @@ The domain-specific instruction fine-tuning datasets are constructed for a parti
   - Instruction Category: Multi
   - Domain: Law
 
-
 #### Math <a id="math01"></a>
 
 - **BELLE_School_Math  2023-5 | All | ZH | MC | [Github](https://github.com/LianjiaTech/BELLE/tree/main/data/10M) | [Dataset](https://huggingface.co/datasets/BelleGroup/school_math_0.25M)**
@@ -1558,6 +1573,30 @@ The domain-specific instruction fine-tuning datasets are constructed for a parti
   - Size: 1.8M instances
   - License: NVIDIA License
   - Source: GSM8K and MATH datasets (original questions); Generated using Mixtral-8×7B model
+  - Instruction Category: Math
+  - Domain: Math
+
+- **OrcaMathWordProblems 2024-2 | All | EN | CI & MC | [Paper](https://arxiv.org/abs/2402.14830) | [Dataset](https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k)**
+  - Publisher: Microsoft Research
+  - Size: 200035 instances
+  - License: MIT
+  - Source: Generated by GPT-4 Turbo
+  - Instruction Category: Math
+  - Domain: Math
+
+- **MathInstruct 2023-9 | All | EN | CI & MC | [Paper](https://arxiv.org/abs/2309.05653) | [Github](https://github.com/TIGER-AI-Lab/MAmmoTH) | [Dataset](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) | [Website](https://tiger-ai-lab.github.io/MAmmoTH/)**
+  - Publisher: University of Waterloo et al.
+  - Size: 262039 instances
+  - License: MIT
+  - Source: GSM8K, MATH, etc. and use GPT-4 to generate CoT and PoT reasoning processes
+  - Instruction Category: Math
+  - Domain: Math
+
+- **MetaMathQA 2023-9 | All | EN | CI & MC | [Paper](https://arxiv.org/abs/2309.12284) | [Github](https://github.com/meta-math/MetaMath) | [Dataset](https://huggingface.co/datasets/meta-math/MetaMathQA) | [Website](https://meta-math.github.io/)**
+  - Publisher: University of Cambridge et al.
+  - Size: 395000 instances
+  - License: MIT
+  - Source: Augmented from the GSM8K and MATH datasets using LLMs
   - Instruction Category: Math
   - Domain: Math
 
@@ -1863,6 +1902,14 @@ The preference evaluation methods for preference datasets can be categorized int
   - Preference Evaluation Method: Other
   - Source: Generated by LLMs & Mathematical reasoning steps are determined manually
 
+- **UltraInteract 2024-4 | All | EN | CI & MC | [Paper](https://arxiv.org/abs/2404.02078) | [Dataset](https://huggingface.co/datasets/openbmb/UltraInteract_pair)**
+  - Publisher: Tsinghua University et al.
+  - Size: 219000 instances
+  - License: MIT
+  - Domain: General
+  - Instruction Category: Multi (Code, Math, Reasoning)
+  - Preference Evaluation Method: Other
+  - Source: CodeContest, MATH, etc.
 
 ## Evaluation Datasets
 Evaluation datasets are a carefully curated and annotated set of data samples used to assess the performance of LLMs across various tasks.**Datasets are classified based on evaluation domains.**
