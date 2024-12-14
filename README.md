@@ -9,6 +9,14 @@ The paper **["Datasets for Large Language Models: A Comprehensive Survey"](https
 
 This paper embarks on an exploration into the Large Language Model (LLM) datasets, which play a crucial role in the remarkable advancements of LLMs. The datasets serve as the foundational infrastructure analogous to a root system that sustains and nurtures the development of LLMs. Consequently, examination of these datasets emerges as a critical topic in research. In order to address the current lack of a comprehensive overview and thorough analysis of LLM datasets, and to gain insights into their current status and future trends, this survey consolidates and categorizes the fundamental aspects of LLM datasets from five perspectives: (1) Pre-training Corpora; (2) Instruction Fine-tuning Datasets; (3) Preference Datasets; (4) Evaluation Datasets; (5) Traditional Natural Language Processing (NLP) Datasets. The survey sheds light on the prevailing challenges and points out potential avenues for future investigation. Additionally, a comprehensive review of the existing available dataset resources is also provided, including statistics from 444 datasets, covering 8 language categories and spanning 32 domains. Information from 20 dimensions is incorporated into the dataset statistics. The total data size surveyed surpasses 774.5 TB for pre-training corpora and 700M instances for other datasets. We aim to present the entire landscape of LLM text datasets, serving as a comprehensive reference for researchers in this field and contributing to future studies.
 
+<p align="center">
+    <img src="Fig_1.jpg" width="800"/>
+<p>
+
+<p align="center">
+    <strong>Fig 1. The overall architecture of the survey. Zoom in for better view</strong>
+<p>
+  
 ## Dataset Information Module
 The following is a summary of the dataset information module.
 
@@ -99,7 +107,13 @@ The following is a summary of the dataset information module.
   - Add **[Expository-Prose-V1](https://www.arxiv.org/abs/2408.03506)** (Pre-training Corpora | General Pre-training Corpora | Multi-category).
   - Add **[DebateQA](https://arxiv.org/abs/2408.01419)** (Evaluation Datasets | Knowledge); **[NeedleBench](https://arxiv.org/pdf/2407.11963)** (Evaluation Datasets | Long Text); **[ArabicMMLU](https://aclanthology.org/2024.findings-acl.334/)** (Evaluation Datasets | Subject); **[PersianMMLU](https://arxiv.org/abs/2404.06644)** (Evaluation Datasets | Subject); **[TMMLU+](https://arxiv.org/abs/2403.01858)** (Evaluation Datasets | Subject).
   - Add **[RAGEval](https://arxiv.org/abs/2408.01262)** (RAG Datasets); **[LFRQA](https://www.arxiv.org/abs/2407.13998)** (RAG Datasets); **[MultiHop-RAG](https://arxiv.org/abs/2401.15391)** (RAG Datasets).
-- We will release the dataset information in CSV format.
+- （2024/12/14）
+  - Add **[Future-Idea-Generation](https://arxiv.org/abs/2409.06185)** (Evaluation Datasets | Other); **[WenMind](https://openreview.net/pdf?id=0G5OK5vmmg)** (Evaluation Datasets | Subject); **[Chinese SimpleQA](https://arxiv.org/abs/2411.07140)** (Evaluation Datasets | Knowledge).
+  - Add **[MME-RealWorld](https://arxiv.org/abs/2408.13257)** (MLLMs Datasets | Evaluation Datasets); **[II-Bench](https://arxiv.org/abs/2406.05862)** (MLLMs Datasets | Evaluation Datasets); **[CII-Bench](https://arxiv.org/abs/2410.13854)** (MLLMs Datasets | Evaluation Datasets); **[ALM-Bench](https://arxiv.org/abs/2411.16508)** (MLLMs Datasets | Evaluation Datasets).
+  - Add **[MaLA](https://arxiv.org/abs/2409.17892)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[CCI3.0-HQ](https://arxiv.org/abs/2410.18505)** (Pre-training Corpora | General Pre-training Corpora | Multi-category); **[GlotCC](https://arxiv.org/abs/2410.23825)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[ChineseWebText 2.0](https://arxiv.org/abs/2411.19668)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[ChineseWebText 1.0](https://arxiv.org/abs/2311.01149)** (Pre-training Corpora | General Pre-training Corpora | Webpages); **[SkyPile](https://arxiv.org/abs/2310.19341)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
+  - Add **[ViDoRe](https://arxiv.org/abs/2407.01449)** (RAG Datasets); **[M2KR](https://arxiv.org/abs/2402.08327)** (RAG Datasets); **[M-BEIR](https://arxiv.org/abs/2311.17136)** (RAG Datasets); **[MRAG-Bench](https://arxiv.org/abs/2410.08182)** (RAG Datasets).
+  - Add **[SlimOrca](https://huggingface.co/datasets/Open-Orca/SlimOrca)** (Instruction Fine-tuning Datasets | CI & MC).
+- We will release the dataset information in CSV format (2025).
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
@@ -310,6 +324,30 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - Size: 279.6 TB
   - License: Common Crawl Terms of Use
   - Source: Common Crawl
+
+- **GlotCC 2024-10 | All | Multi (1275) | CI | [Paper](https://arxiv.org/abs/2410.23825) | [Github](https://github.com/cisnlp/GlotCC) | [Dataset](https://huggingface.co/datasets/cis-lmu/GlotCC-V1)**
+  - Publisher: LMU Munich & Munich Center for Machine Learning et al.
+  - Size: 2 TB
+  - License: Common Crawl Terms of Use
+  - Source: Common Crawl
+
+- **ChineseWebText 2.0 2024-11 | All | ZH | CI | [Paper](https://arxiv.org/abs/2411.19668) | [Github](https://github.com/CASIA-LM/ChineseWebText-2.0) | [Dataset](https://huggingface.co/datasets/CASIA-LM/ChineseWebText2.0)**
+  - Publisher: Chinese Academy of Sciences et al.
+  - Size: 3.8 TB
+  - License: Apache-2.0
+  - Source: MAP-CC, WanJuan, WuDao, etc.
+
+- **ChineseWebText 1.0 2023-11 | All | ZH | CI | [Paper](https://arxiv.org/abs/2311.01149) | [Github](https://github.com/CASIA-LM/ChineseWebText) | [Dataset](https://huggingface.co/datasets/CASIA-LM/ChineseWebText)**
+  - Publisher: Chinese Academy of Sciences et al.
+  - Size: 1.42 TB
+  - License: -
+  - Source: Common Crawl
+
+- **SkyPile 2023-10 | Partial | ZH | HG | [Paper](https://arxiv.org/abs/2310.19341) | [Github](https://github.com/SkyworkAI/Skywork) | [Dataset](https://huggingface.co/datasets/Skywork/SkyPile-150B)**
+  - Publisher: Kunlun Inc
+  - Size: 150 B Tokens
+  - License: Skywork Community License
+  - Source: Publicly accessible Chinese Internet webpages
 
 #### Language Texts
 
@@ -595,6 +633,18 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - Size: 56 B Tokens
   - License: MIT
   - Source: ArXiv, Wikipedia, Gutenberg, etc.
+
+- **MaLA 2024-9 | All | Multi (939) | HG & CI | [Paper](https://arxiv.org/abs/2409.17892) | [Dataset](https://huggingface.co/collections/MaLA-LM/mala-corpus-66e05127641a51de34d39529)**
+  - Publisher: University of Helsinki et al.
+  - Size: 74 B Tokens
+  - License: ODC-BY
+  - Source: CC100, CulturaX, MADLAD-400 etc.
+
+- **CCI3.0-HQ 2024-9 | All | ZH | HG | [Paper](https://arxiv.org/abs/2410.18505) | [Dataset](https://huggingface.co/datasets/BAAI/CCI3-HQ)**
+  - Publisher: BAAI
+  - Size: 500 GB
+  - License: BAAI Data Usage Protocol
+  - Source: News, Social media, Blogs, etc.
 
 ### Domain-specific Pre-training Corpora
 Domain-specific pre-training corpora are LLM datasets customized for specific fields or topics. The type of corpus is typically employed in the incremental pre-training phase of LLMs. **Corpora are classified based on data domains.**
@@ -967,7 +1017,7 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Source: Evolve instructions through the Evol-Instruct method
   - Instruction Category: Multi
 
-- **WildChat 2024-5 | Partial | Multi | MC | [Paper](https://arxiv.org/abs/2405.01470) | [Dataset](https://huggingface.co/datasets/allenai/WildChat)**
+- **WildChat 2024-5 | Partial | Multi (68) | MC | [Paper](https://arxiv.org/abs/2405.01470) | [Dataset](https://huggingface.co/datasets/allenai/WildChat)**
   - Publisher: Cornell University et al.
   - Size: 1039785 instances
   - License: AI2 ImpACT license
@@ -1233,6 +1283,13 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Size: 6000 instances
   - License: Apache-2.0
   - Source: Generated by GPT-4o with open-source datasets’ prompts
+  - Instruction Category: Multi
+
+- **SlimOrca 2023-10 | All | EN | CI & MC | [Dataset](https://huggingface.co/datasets/Open-Orca/SlimOrca)**
+  - Publisher: Open-Orca
+  - Size: 517,982 instances
+  - License: MIT
+  - Source: Generated by GPT-4 and from OpenOrca data
   - Instruction Category: Multi
 
 #### HG & CI & MC
@@ -1759,7 +1816,7 @@ The preference evaluation methods for preference datasets can be categorized int
   - Preference Evaluation Method: SC-M
   - Source: Generated by seventeen LLMs & Model scoring
 
-- **OpenHermesPreferences 2024-2 | All | EN | CI & MC | [Dataset](https://huggingface.co/datasets/argilla/OpenHermesPreferences)**
+- **OpenHermesPreferences 2024-3 | All | EN | CI & MC | [Dataset](https://huggingface.co/datasets/argilla/OpenHermesPreferences)**
   - Publisher: Argilla et al.
   - Size: 989490 instances
   - License: -
@@ -2201,6 +2258,16 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 4/66
   - Evaluation Category: STEM, Social sciences, Humanities, Other
 
+- **WenMind 2024-5 | All | ZH | HG & CI & MC | [Paper](https://openreview.net/pdf?id=0G5OK5vmmg) | [Github](https://github.com/SCUT-DLVCLab/WenMind) | [Dataset](https://github.com/SCUT-DLVCLab/WenMind)**
+  - Publisher: South China University of Technology et al.
+  - Size: 4875 instances
+  - License: MIT
+  - Question Type: Multi
+  - Evaluation Method: CE & ME
+  - Focus: Chinese Classical Literature and Language Arts (CCLLA)
+  - Numbers of Evaluation Categories/Subcategories: 3/42
+  - Evaluation Category: Ancient Prose, Ancient Poetry, Ancient Literary Culture
+
 ### NLU
 
 - **CLUE  2020-12 | All | ZH | CI | [Paper](https://aclanthology.org/2020.coling-main.419.pdf) | [Github](https://github.com/CLUEbenchmark/CLUE)**
@@ -2446,6 +2513,16 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Focus: Evaluate the comprehensiveness of perspectives and assess whether the LLM acknowledges the question’s debatable nature
   - Numbers of Evaluation Categories/Subcategories: 2/-
   - Evaluation Category: Perspective diversity, Dispute awareness
+
+- **Chinese SimpleQA 2024-11 | All | ZH | HG & MC | [Paper](https://arxiv.org/abs/2411.07140) | [Github](https://github.com/OpenStellarTeam/ChineseSimpleQA) | [Dataset](https://huggingface.co/datasets/OpenStellarTeam/Chinese-SimpleQA) | [Website](https://openstellarteam.github.io/ChineseSimpleQA/)**
+  - Publisher: Taobao & Tmall Group of Alibaba
+  - Size: 3000 instances
+  - License: CC-BY-NC-SA-4.0
+  - Question Type: SQ
+  - Evaluation Method: ME
+  - Focus: Evaluate the factuality ability of LLMs for answering short questions in Chinese
+  - Numbers of Evaluation Categories/Subcategories: 6/99
+  - Evaluation Category: Chinese Culture, Humanities, Engineering, Technology and Applied Sciences, Life Art and Culture, Society, Natural Science
 
 ### Long Text
 
@@ -3345,6 +3422,17 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 8/36
   - Evaluation Category: Anger, Anxiety, Depression, Frustration, Jealous, Guilt, Fear, Embarrassment
   - Domain: Sentiment
+
+- **Future-Idea-Generation 2024-4 | All | EN | HG & CI & MC | [Paper](https://arxiv.org/abs/2409.06185) | [Github](https://github.com/sandeep82945/Future-Idea-Generation) | [Dataset](https://github.com/sandeep82945/Future-Idea-Generation)**
+  - Publisher: Indian Institute of Technology Patna et al.
+  - Size: -
+  - License: MIT
+  - Question Type: SQ
+  - Evaluation Method: HE & CE
+  - Focus: The potential of LLMs in generating future research ideas
+  - Numbers of Evaluation Categories/Subcategories: 5/-
+  - Evaluation Category: Computer Science, Economics, Chemistry, Physics, Medicine
+  - Domain: Idea Generation
 
 ### Evaluation Platform
 
@@ -4315,6 +4403,12 @@ Multitask datasets hold significance as they can be concurrently utilized for di
   - Github: [https://github.com/OpenGVLab/MMT-Bench](https://github.com/OpenGVLab/MMT-Bench)
   - Dataset: [https://huggingface.co/datasets/Kaining/MMT-Bench](https://huggingface.co/datasets/Kaining/MMT-Bench)
 
+- **MME-RealWorld**: A benchmark designed to evaluate the performance of MLLMs on real-world tasks involving high-resolution images and complex scenarios
+  - Paper: [MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?](https://arxiv.org/abs/2408.13257)
+  - Github: [https://github.com/yfzhang114/MME-RealWorld](https://github.com/yfzhang114/MME-RealWorld)
+  - Dataset: [https://huggingface.co/datasets/yifanzhang114/MME-RealWorld](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld)
+  - Website: [https://mme-realworld.github.io/home_page.html](https://mme-realworld.github.io/home_page.html)
+
 #### Long Input
 
 - **MM-NIAH**: The first benchmark specifically designed to systematically evaluate the capability of existing MLLMs to comprehend long multimodal
@@ -4341,6 +4435,14 @@ documents
   - Dataset: [https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M)
   - Website: [https://yunfeixie233.github.io/MedTrinity-25M/](https://yunfeixie233.github.io/MedTrinity-25M/)
 
+### Multilingual
+
+- **ALM-Bench**: A benchmark for evaluating LMMs’ ability to understand and reason about culturally diverse images and texts across 100 languages 
+  - Paper: [All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages](https://arxiv.org/abs/2411.16508)
+  - Github: [https://github.com/mbzuai-oryx/ALM-Bench](https://github.com/mbzuai-oryx/ALM-Bench)
+  - Dataset: [https://huggingface.co/datasets/MBZUAI/ALM-Bench](https://huggingface.co/datasets/MBZUAI/ALM-Bench)
+  - Website: [https://mbzuai-oryx.github.io/ALM-Bench/](https://mbzuai-oryx.github.io/ALM-Bench/)
+
 #### Image Understanding
 
 - **MMIU**: A comprehensive evaluation suite designed to assess LVLMs across a wide range of multi-image tasks
@@ -4348,6 +4450,16 @@ documents
   - Github: [https://github.com/OpenGVLab/MMIU](https://github.com/OpenGVLab/MMIU)
   - Dataset: [https://huggingface.co/datasets/FanqingM/MMIU-Benchmark](https://huggingface.co/datasets/FanqingM/MMIU-Benchmark)
   - Website: [https://mmiu-bench.github.io/](https://mmiu-bench.github.io/)
+
+- **II-Bench**: A benchmark designed to evaluate the higher-order perceptual capabilities of MLLMs in understanding images and their implications.
+  - Paper: [II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models](https://arxiv.org/abs/2406.05862)
+  - Github: [https://github.com/II-Bench/II-Bench](https://github.com/II-Bench/II-Bench)
+  - Dataset: [https://huggingface.co/datasets/m-a-p/II-Bench](https://huggingface.co/datasets/m-a-p/II-Bench)
+
+- **CII-Bench**: A benchmark designed to evaluate the higher-order perception and understanding capabilities of MLLMs for Chinese images, with a focus on Chinese traditional culture and semantics
+  - Paper: [Can MLLMs Understand the Deep Implication Behind Chinese Images?](https://arxiv.org/abs/2410.13854)
+  - Github: [https://github.com/MING-ZCH/CII-Bench](https://github.com/MING-ZCH/CII-Bench)
+  - Dataset: [https://huggingface.co/datasets/m-a-p/CII-Bench](https://huggingface.co/datasets/m-a-p/CII-Bench)
 
 ## Retrieval Augmented Generation (RAG) Datasets <a id="retrieval-augmented-generation-rag-datasets"></a>
 
@@ -4397,6 +4509,25 @@ documents
   - Paper: [MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries](https://arxiv.org/abs/2401.15391)
   - Github: [https://github.com/yixuantt/MultiHop-RAG/](https://github.com/yixuantt/MultiHop-RAG/)
   - Dataset: [https://huggingface.co/datasets/yixuantt/MultiHopRAG](https://huggingface.co/datasets/yixuantt/MultiHopRAG)
+
+- **ViDoRe**: A benchmark for evaluating document retrieval using visual features across multiple domains and modalities
+  - Paper: [ColPali: Efficient Document Retrieval with Vision Language Models](https://arxiv.org/abs/2407.01449)
+  - Dataset: [https://huggingface.co/vidore](https://huggingface.co/vidore)
+
+- **M2KR**: A framework for training and evaluating multimodal retrievers in Knowledge-based Visual Question Answering (KB-VQA)
+  - Paper: [PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers](https://arxiv.org/abs/2402.08327)
+  - Github: [https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)
+  - Dataset: [https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)
+
+- **M-BEIR**: A multimodal retrieval benchmark designed to standardize the evaluation of universal multimodal information retrieval
+  - Paper: [UniIR: Training and Benchmarking Universal Multimodal Information Retrievers](https://arxiv.org/abs/2311.17136)
+  - Github: [https://github.com/TIGER-AI-Lab/UniIR](https://github.com/TIGER-AI-Lab/UniIR)
+  - Dataset: [https://huggingface.co/datasets/TIGER-Lab/M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR)
+
+- **MRAG-Bench**: A multimodal RAG benchmark designed to evaluate the effectiveness of visual knowledge retrieval in large vision-language models.
+  - Paper: [MRAG-Bench: Vision-Centric Evaluation for Retrieval-Augmented Multimodal Models](https://arxiv.org/abs/2410.08182)
+  - Github: [https://github.com/mragbench/MRAG-Bench](https://github.com/mragbench/MRAG-Bench)
+  - Dataset: [https://huggingface.co/datasets/uclanlp/MRAG-Bench](https://huggingface.co/datasets/uclanlp/MRAG-Bench)
 
 ## Contact
 Contact information：
