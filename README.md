@@ -4,6 +4,7 @@
 
 - Summarize existing representative LLMs text datasets across five dimensions: **Pre-training Corpora, Fine-tuning Instruction Datasets, Preference Datasets, Evaluation Datasets, and Traditional NLP Datasets**. (Regular updates)
 - New dataset sections have been added: **Multi-modal Large Language Models (MLLMs) Datasets, Retrieval Augmented Generation (RAG) Datasets**. (Gradual updates)
+- To improve update efficiency and frequency, starting from 2025, only key details of datasets will be updated (e.g., dataset name, paper link, etc.). For more comprehensive information, please refer to the corresponding research papers.
 
 ## Paper
 The paper **["Datasets for Large Language Models: A Comprehensive Survey"](https://arxiv.org/abs/2402.18041)** has been released.（2024/2）
