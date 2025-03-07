@@ -74,6 +74,9 @@ The following is a summary of the dataset information module.
 - Number of Relationship Categories (RE Task)
 
 ## Changelog
+<details>
+<summary>Click to expand and view hidden content.</summary>
+    
 - （2024/01/17）Create the **Awesome-LLMs-Datasets** dataset repository.
 - （2024/02/02）Revise information for some datasets; add **[Dolma](https://browse.arxiv.org/abs/2402.00159)** (Pre-training Corpora | General Pre-training Corpora | Multi-category).
 - （2024/02/15）Add **[Aya Collection](https://arxiv.org/abs/2402.06619)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG & CI & MC); **[Aya Dataset](https://arxiv.org/abs/2402.06619)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | HG).
@@ -110,6 +113,9 @@ The following is a summary of the dataset information module.
   - Add **[Expository-Prose-V1](https://www.arxiv.org/abs/2408.03506)** (Pre-training Corpora | General Pre-training Corpora | Multi-category).
   - Add **[DebateQA](https://arxiv.org/abs/2408.01419)** (Evaluation Datasets | Knowledge); **[NeedleBench](https://arxiv.org/pdf/2407.11963)** (Evaluation Datasets | Long Text); **[ArabicMMLU](https://aclanthology.org/2024.findings-acl.334/)** (Evaluation Datasets | Subject); **[PersianMMLU](https://arxiv.org/abs/2404.06644)** (Evaluation Datasets | Subject); **[TMMLU+](https://arxiv.org/abs/2403.01858)** (Evaluation Datasets | Subject).
   - Add **[RAGEval](https://arxiv.org/abs/2408.01262)** (RAG Datasets); **[LFRQA](https://www.arxiv.org/abs/2407.13998)** (RAG Datasets); **[MultiHop-RAG](https://arxiv.org/abs/2401.15391)** (RAG Datasets).
+
+</details>
+
 - （2024/12/14）
   - Add **[Future-Idea-Generation](https://arxiv.org/abs/2409.06185)** (Evaluation Datasets | Other); **[WenMind](https://openreview.net/pdf?id=0G5OK5vmmg)** (Evaluation Datasets | Subject); **[Chinese SimpleQA](https://arxiv.org/abs/2411.07140)** (Evaluation Datasets | Knowledge).
   - Add **[MME-RealWorld](https://arxiv.org/abs/2408.13257)** (MLLMs Datasets | Evaluation Datasets); **[II-Bench](https://arxiv.org/abs/2406.05862)** (MLLMs Datasets | Evaluation Datasets); **[CII-Bench](https://arxiv.org/abs/2410.13854)** (MLLMs Datasets | Evaluation Datasets); **[ALM-Bench](https://arxiv.org/abs/2411.16508)** (MLLMs Datasets | Evaluation Datasets).
