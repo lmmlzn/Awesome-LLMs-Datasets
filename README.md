@@ -4395,196 +4395,165 @@ Multitask datasets hold significance as they can be concurrently utilized for di
 
 #### Documents
 
-- **mOSCAR**: A large-scale multilingual and multimodal document-level corpus
-  - Paper: [mOSCAR: A Large-scale Multilingual and Multimodal Document-level Corpus](https://arxiv.org/abs/2406.08707)
-  - Github: [https://oscar-project.github.io/documentation/versions/mOSCAR/](https://oscar-project.github.io/documentation/versions/mOSCAR/)
+- **mOSCAR  2024-6 | [Paper](https://arxiv.org/abs/2406.08707) | [Github](https://oscar-project.github.io/documentation/versions/mOSCAR/)**
+  - Publisher: Inria et al.
 
-- **OBELISC**: An open web-scale filtered dataset of interleaved image-text documents
-  - Paper: [OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents](https://arxiv.org/abs/2306.16527)
-  - Github: [https://github.com/huggingface/OBELICS](https://github.com/huggingface/OBELICS)
-  - Dataset: [https://huggingface.co/datasets/HuggingFaceM4/OBELICS](https://huggingface.co/datasets/HuggingFaceM4/OBELICS)
+- **OBELISC  2023-6 | [Paper](https://arxiv.org/abs/2306.16527) | [Github](https://github.com/huggingface/OBELICS) | [Dataset](https://huggingface.co/datasets/HuggingFaceM4/OBELICS)**
+  - Publisher: Hugging Face et al.
 
 ### Instruction Fine-tuning Datasets <a id="instruction02"></a>
 
 #### Remote Sensing
 
-- **MMRS-1M**: Multi-sensor remote sensing instruction dataset
-  - Paper: [EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain](https://arxiv.org/abs/2401.16822)
-  - Github: [https://github.com/wivizhang/EarthGPT](https://github.com/wivizhang/EarthGPT)
+- **MMRS-1M  2024-1 | [Paper](https://arxiv.org/abs/2401.16822) | [Github](https://github.com/wivizhang/EarthGPT)**
+
+  - Publisher: Beijing Institute of Technology et al.
 
 #### Images + Videos
 
-- **VideoChat2-IT**: Instruction fine-tuning dataset for images/videos
-  - Paper: [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005)
-  - Dataset: [https://huggingface.co/datasets/OpenGVLab/VideoChat2-IT](https://huggingface.co/datasets/OpenGVLab/VideoChat2-IT)
+- **VideoChat2-IT  2023-11 | [Paper](https://arxiv.org/abs/2311.17005) | [Dataset](https://huggingface.co/datasets/OpenGVLab/VideoChat2-IT)**
+  
+  - Publisher: Chinese Academy of Sciences et al.
 
 #### Visual Document Understanding
 
-- **InstructDoc**: A dataset for zero-shot generalization of visual document understanding
-  - Paper: [InstructDoc: A Dataset for Zero-Shot Generalization of Visual Document Understanding with Instructions](https://arxiv.org/abs/2401.13313)
-  - Github: [https://github.com/nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc)
-  - Dataset: [https://github.com/nttmdlab-nlp/InstructDoc](https://github.com/nttmdlab-nlp/InstructDoc)
+- **InstructDoc  2024-1 | [Paper](https://arxiv.org/abs/2401.13313) | [Github](https://github.com/nttmdlab-nlp/InstructDoc) | [Dataset](https://github.com/nttmdlab-nlp/InstructDoc)**
+  
+  - Publisher: NTT Corporation et al.
 
 #### General
 
-- **ALLaVA-4V Data**: The multimodal instruction fine-tuning dataset for the ALLaVA model
-  - Paper: [ALLaVA: Harnessing GPT4V-synthesized Data for A Lite Vision-Language Model](https://arxiv.org/abs/2402.11684)
-  - Github: [https://github.com/FreedomIntelligence/ALLaVA](https://github.com/FreedomIntelligence/ALLaVA)
-  - Dataset: [https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V](https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V)
+- **ALLaVA-4V Data  2024-2 | [Paper](https://arxiv.org/abs/2402.11684) | [Github](https://github.com/FreedomIntelligence/ALLaVA) | [Dataset](https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V)**
+  
+  - Publisher: Shenzhen Research Institute of Big Data et al.
 
 ### Evaluation Datasets <a id="evaluation02"></a>
 
 #### Video Understanding
 
-- **MVBench**: A comprehensive multi-modal video understanding benchmark
-  - Paper: [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005)
-  - Github: [https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2)
-  - Dataset: [https://huggingface.co/datasets/OpenGVLab/MVBench](https://huggingface.co/datasets/OpenGVLab/MVBench)
+- **MVBench  2023-11 | [Paper](https://arxiv.org/abs/2311.17005) | [Github](https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2) | [Dataset](https://huggingface.co/datasets/OpenGVLab/MVBench)**
+  
+  - Publisher: Chinese Academy of Sciences et al.
 
 #### Subject
 
-- **OlympiadBench**: An Olympiad-level bilingual multimodal scientific benchmark
-  - Paper: [OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems](https://arxiv.org/abs/2402.14008)
-  - Github: [https://github.com/OpenBMB/OlympiadBench](https://github.com/OpenBMB/OlympiadBench)
-  - Dataset: [https://github.com/OpenBMB/OlympiadBench](https://github.com/OpenBMB/OlympiadBench)
+- **OlympiadBench  2024-2 | [Paper](https://arxiv.org/abs/2402.14008) | [Github](https://github.com/OpenBMB/OlympiadBench) | [Dataset](https://github.com/OpenBMB/OlympiadBench)**
+  
+  - Publisher: Tsinghua University et al.
 
-- **MMMU**: A new benchmark designed to evaluate MLLMs on massive multi-discipline tasks
-  - Paper: [MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI](https://arxiv.org/abs/2311.16502)
-  - Github: [https://github.com/MMMU-Benchmark/MMMU](https://github.com/MMMU-Benchmark/MMMU)
-  - Dataset: [https://huggingface.co/datasets/MMMU/MMMU](https://huggingface.co/datasets/MMMU/MMMU)
+- **MMMU  2023-11 | [Paper](https://arxiv.org/abs/2311.16502) | [Github](https://github.com/MMMU-Benchmark/MMMU) | [Dataset](https://huggingface.co/datasets/MMMU/MMMU)**
+  
+  - Publisher: IN.AI Research et al.
 
 #### Multitask
 
-- **MMT-Bench**: A comprehensive multimodal benchmark for evaluating large vision-language models towards multitask AGI
-  - Paper: [MMT-Bench: A Comprehensive Multimodal Benchmark for Evaluating Large Vision-Language Models Towards Multitask AGI](https://arxiv.org/abs/2404.16006)
-  - Github: [https://github.com/OpenGVLab/MMT-Bench](https://github.com/OpenGVLab/MMT-Bench)
-  - Dataset: [https://huggingface.co/datasets/Kaining/MMT-Bench](https://huggingface.co/datasets/Kaining/MMT-Bench)
+- **MMT-Bench  2024-4 | [Paper](https://arxiv.org/abs/2404.16006) | [Github](https://github.com/OpenGVLab/MMT-Bench) | [Dataset](https://huggingface.co/datasets/Kaining/MMT-Bench)**
+  
+  - Publisher: Shanghai Artificial Intelligence Laboratory et al.
 
-- **MME-RealWorld**: A benchmark designed to evaluate the performance of MLLMs on real-world tasks involving high-resolution images and complex scenarios
-  - Paper: [MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?](https://arxiv.org/abs/2408.13257)
-  - Github: [https://github.com/yfzhang114/MME-RealWorld](https://github.com/yfzhang114/MME-RealWorld)
-  - Dataset: [https://huggingface.co/datasets/yifanzhang114/MME-RealWorld](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld)
-  - Website: [https://mme-realworld.github.io/home_page.html](https://mme-realworld.github.io/home_page.html)
+- **MME-RealWorld  2024-8 | [Paper](https://arxiv.org/abs/2408.13257) | [Github](https://github.com/yfzhang114/MME-RealWorld) | [Dataset](https://huggingface.co/datasets/yifanzhang114/MME-RealWorld) | [Website](https://mme-realworld.github.io/home_page.html)**
+  
+  - Publisher: CASIA et al.
 
 #### Long Input
 
-- **MM-NIAH**: The first benchmark specifically designed to systematically evaluate the capability of existing MLLMs to comprehend long multimodal
-documents
-  - Paper: [Needle In A Multimodal Haystack](https://arxiv.org/abs/2406.07230)
-  - Github: [https://github.com/OpenGVLab/MM-NIAH](https://github.com/OpenGVLab/MM-NIAH)
-  - Dataset: [https://github.com/OpenGVLab/MM-NIAH](https://github.com/OpenGVLab/MM-NIAH)
+- **MM-NIAH  2024-6 | [Paper](https://arxiv.org/abs/2406.07230) | [Github](https://github.com/OpenGVLab/MM-NIAH) | [Dataset](https://github.com/OpenGVLab/MM-NIAH)**
+  
+  - Publisher: Fudan University et al.
 
 #### Factuality
 
-- **MultiTrust**: The first comprehensive and unified benchmark on the trustworthiness of MLLMs across five primary aspects: truthfulness, safety, robustness, fairness, and privacy
-  - Paper: [Benchmarking Trustworthiness of Multimodal Large Language Models: A Comprehensive Study](https://arxiv.org/abs/2406.07057)
-  - Github: [https://github.com/thu-ml/MMTrustEval](https://github.com/thu-ml/MMTrustEval)
-  - Website: [https://multi-trust.github.io/#leaderboard](https://multi-trust.github.io/#leaderboard)
+- **MultiTrust  2024-6 | [Paper](https://arxiv.org/abs/2406.07057) | [Github](https://github.com/thu-ml/MMTrustEval) | [Website](https://multi-trust.github.io/#leaderboard)**
+  
+  - Publisher: Tsinghua University et al.
 
 #### Medical
 
-- **MultiMed**: A benchmark designed to evaluate and enable large-scale learning across a wide spectrum of medical modalities and tasks
-  - Paper: [MultiMed: Massively Multimodal and Multitask Medical Understanding](https://www.arxiv.org/abs/2408.12682)
+- **MultiMed  2024-8 | [Paper](https://www.arxiv.org/abs/2408.12682)**
+  
+  - Publisher: Carnegie Mellon University et al.
 
-- **MedTrinity-25M**: A large-scale multimodal dataset with multigranular annotations for medicine
-  - Paper: [MedTrinity-25M: A Large-scale Multimodal Dataset with Multigranular Annotations for Medicine](https://www.arxiv.org/abs/2408.02900)
-  - Github: [https://github.com/UCSC-VLAA/MedTrinity-25M](https://github.com/UCSC-VLAA/MedTrinity-25M)
-  - Dataset: [https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M)
-  - Website: [https://yunfeixie233.github.io/MedTrinity-25M/](https://yunfeixie233.github.io/MedTrinity-25M/)
+- **MedTrinity-25M  2024-8 | [Paper](https://www.arxiv.org/abs/2408.02900) | [Github](https://github.com/UCSC-VLAA/MedTrinity-25M) | [Dataset](https://huggingface.co/datasets/UCSC-VLAA/MedTrinity-25M) | [Website](https://yunfeixie233.github.io/MedTrinity-25M/)**
+  
+  - Publisher: Huazhong University of Science and Technology et al.
 
-### Multilingual
+#### Multilingual
 
-- **ALM-Bench**: A benchmark for evaluating LMMs’ ability to understand and reason about culturally diverse images and texts across 100 languages 
-  - Paper: [All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages](https://arxiv.org/abs/2411.16508)
-  - Github: [https://github.com/mbzuai-oryx/ALM-Bench](https://github.com/mbzuai-oryx/ALM-Bench)
-  - Dataset: [https://huggingface.co/datasets/MBZUAI/ALM-Bench](https://huggingface.co/datasets/MBZUAI/ALM-Bench)
-  - Website: [https://mbzuai-oryx.github.io/ALM-Bench/](https://mbzuai-oryx.github.io/ALM-Bench/)
+- **ALM-Bench  2024-11 | [Paper](https://arxiv.org/abs/2411.16508) | [Github](https://github.com/mbzuai-oryx/ALM-Bench) | [Dataset](https://huggingface.co/datasets/MBZUAI/ALM-Bench) | [Website](https://mbzuai-oryx.github.io/ALM-Bench/)**
+  
+  - Publisher: University of Central Florida et al.
 
 #### Image Understanding
 
-- **MMIU**: A comprehensive evaluation suite designed to assess LVLMs across a wide range of multi-image tasks
-  - Paper: [MMIU: Multimodal Multi-image Understanding for Evaluating Large Vision-Language Models](https://www.arxiv.org/abs/2408.02718)
-  - Github: [https://github.com/OpenGVLab/MMIU](https://github.com/OpenGVLab/MMIU)
-  - Dataset: [https://huggingface.co/datasets/FanqingM/MMIU-Benchmark](https://huggingface.co/datasets/FanqingM/MMIU-Benchmark)
-  - Website: [https://mmiu-bench.github.io/](https://mmiu-bench.github.io/)
+- **MMIU  2024-8 | [Paper](https://www.arxiv.org/abs/2408.02718) | [Github](https://github.com/OpenGVLab/MMIU) | [Dataset](https://huggingface.co/datasets/FanqingM/MMIU-Benchmark) | [Website](https://mmiu-bench.github.io/)**
+  
+  - Publisher: Shanghai AI Laboratory et al.
 
-- **II-Bench**: A benchmark designed to evaluate the higher-order perceptual capabilities of MLLMs in understanding images and their implications.
-  - Paper: [II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models](https://arxiv.org/abs/2406.05862)
-  - Github: [https://github.com/II-Bench/II-Bench](https://github.com/II-Bench/II-Bench)
-  - Dataset: [https://huggingface.co/datasets/m-a-p/II-Bench](https://huggingface.co/datasets/m-a-p/II-Bench)
+- **II-Bench  2024-6 | [Paper](https://arxiv.org/abs/2406.05862) | [Github](https://github.com/II-Bench/II-Bench) | [Dataset](https://huggingface.co/datasets/m-a-p/II-Bench)**
+  
+  - Publisher: Shenzhen Institutes of Advanced Technology et al.
 
-- **CII-Bench**: A benchmark designed to evaluate the higher-order perception and understanding capabilities of MLLMs for Chinese images, with a focus on Chinese traditional culture and semantics
-  - Paper: [Can MLLMs Understand the Deep Implication Behind Chinese Images?](https://arxiv.org/abs/2410.13854)
-  - Github: [https://github.com/MING-ZCH/CII-Bench](https://github.com/MING-ZCH/CII-Bench)
-  - Dataset: [https://huggingface.co/datasets/m-a-p/CII-Bench](https://huggingface.co/datasets/m-a-p/CII-Bench)
+- **CII-Bench  2024-10 | [Paper](https://arxiv.org/abs/2410.13854) | [Github](https://github.com/MING-ZCH/CII-Bench) | [Dataset](https://huggingface.co/datasets/m-a-p/CII-Bench)**
+  
+  - Publisher: Huazhong University of Science and Technology et al.
 
 ## Retrieval Augmented Generation (RAG) Datasets <a id="retrieval-augmented-generation-rag-datasets"></a>
 
-- **CRUD-RAG**: A comprehensive Chinese benchmark for RAG
-  - Paper: [CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2401.17043)
-  - Github: [https://github.com/IAAR-Shanghai/CRUD_RAG](https://github.com/IAAR-Shanghai/CRUD_RAG)
-  - Dataset: [https://github.com/IAAR-Shanghai/CRUD_RAG](https://github.com/IAAR-Shanghai/CRUD_RAG)
+- **CRUD-RAG  2024-1 | [Paper](https://arxiv.org/abs/2401.17043) | [Github](https://github.com/IAAR-Shanghai/CRUD_RAG) | [Dataset](https://github.com/IAAR-Shanghai/CRUD_RAG)**
+  
+  - Publisher: University of Science and Technology of China et al.
 
-- **WikiEval**: To do correlation analysis of difference metrics proposed in RAGAS
-  - Paper: [RAGAS: Automated Evaluation of Retrieval Augmented Generation](https://arxiv.org/abs/2309.15217)
-  - Github: [https://github.com/explodinggradients/ragas](https://github.com/explodinggradients/ragas)
-  - Dataset: [https://huggingface.co/datasets/explodinggradients/WikiEval](https://huggingface.co/datasets/explodinggradients/WikiEval)
+- **WikiEval  2023-9 | [Paper](https://arxiv.org/abs/2309.15217) | [Github](https://github.com/explodinggradients/ragas) | [Dataset](https://huggingface.co/datasets/explodinggradients/WikiEval)**
+  
+  - Publisher: Exploding Gradients et al.
 
-- **RGB**: A benchmark for RAG
-  - Paper: [Benchmarking Large Language Models in Retrieval-Augmented Generation](https://arxiv.org/abs/2309.01431)
-  - Github: [https://github.com/chen700564/RGB](https://github.com/chen700564/RGB)
-  - Dataset: [https://github.com/chen700564/RGB](https://github.com/chen700564/RGB)
+- **RGB  2023-9 | [Paper](https://arxiv.org/abs/2309.01431) | [Github](https://github.com/chen700564/RGB) | [Dataset](https://github.com/chen700564/RGB)**
+  
+  - Publisher: Chinese Information Processing Laboratory et al.
 
-- **RAG-Instruct-Benchmark-Tester**: An updated benchmarking test dataset for RAG use cases in the enterprise
-  - Dataset: [https://huggingface.co/datasets/llmware/rag_instruct_benchmark_tester](https://huggingface.co/datasets/llmware/rag_instruct_benchmark_tester)
-  - Website: [https://medium.com/@darrenoberst/how-accurate-is-rag-8f0706281fd9](https://medium.com/@darrenoberst/how-accurate-is-rag-8f0706281fd9)
+- **RAG-Instruct-Benchmark-Tester  2024-8 | [Dataset](https://huggingface.co/datasets/llmware/rag_instruct_benchmark_tester) | [Website](https://medium.com/@darrenoberst/how-accurate-is-rag-8f0706281fd9)**
+  
+  - Publisher: llmware
 
-- **ARES**: An automated evaluation framework for RAG
-  - Paper: [ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems](https://arxiv.org/abs/2311.09476)
-  - Github: [https://github.com/stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES)
-  - Dataset: [https://github.com/stanford-futuredata/ARES](https://github.com/stanford-futuredata/ARES)
+- **ARES  2023-11 | [Paper](https://arxiv.org/abs/2311.09476) | [Github](https://github.com/stanford-futuredata/ARES) | [Dataset](https://github.com/stanford-futuredata/ARES)**
+  
+  - Publisher: Stanford University et al.
 
-- **ALCE**: The quality assessment benchmark for context and responses
-  - Paper: [Enabling Large Language Models to Generate Text with Citations](https://aclanthology.org/2023.emnlp-main.398/)
-  - Github: [https://github.com/princeton-nlp/ALCE](https://github.com/princeton-nlp/ALCE)
-  - Dataset: [https://huggingface.co/datasets/princeton-nlp/ALCE-data](https://huggingface.co/datasets/princeton-nlp/ALCE-data)
+- **ALCE  2023-5 | [Paper](https://aclanthology.org/2023.emnlp-main.398/) | [Github](https://github.com/princeton-nlp/ALCE) | [Dataset](https://huggingface.co/datasets/princeton-nlp/ALCE-data)**
+  
+  - Publisher: Princeton University et al.
 
-- **CRAG**: A comprehensive RAG benchmark
-  - Paper: [CRAG -- Comprehensive RAG Benchmark](https://arxiv.org/abs/2406.04744)
-  - Website: [https://www.aicrowd.com/challenges/meta-comprehensive-rag-benchmark-kdd-cup-2024](https://www.aicrowd.com/challenges/meta-comprehensive-rag-benchmark-kdd-cup-2024)
+- **CRAG  2024-6 | [Paper](https://arxiv.org/abs/2406.04744) | [Website](https://www.aicrowd.com/challenges/meta-comprehensive-rag-benchmark-kdd-cup-2024)**
+  
+  - Publisher: Meta Reality Labs et al.
 
-- **RAGEval**：A framework for automatically generating evaluation datasets to evaluate the knowledge usage ability of different LLMs in different scenarios
-  - Paper: [RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework](https://arxiv.org/abs/2408.01262)
-  - Github: [https://github.com/OpenBMB/RAGEval](https://github.com/OpenBMB/RAGEval)
-  - Dataset: [https://github.com/OpenBMB/RAGEval](https://github.com/OpenBMB/RAGEval)
+- **RAGEval  2024-8 | [Paper](https://arxiv.org/abs/2408.01262) | [Github](https://github.com/OpenBMB/RAGEval) | [Dataset](https://github.com/OpenBMB/RAGEval)**
+  
+  - Publisher: Tsinghua University et al.
 
-- **LFRQA**：A dataset of human-written long-form answers for cross-domain evaluation in RAG-QA systems
-  - Paper: [RAG-QA Arena: Evaluating Domain Robustness for Long-form Retrieval Augmented Question Answering](https://www.arxiv.org/abs/2407.13998)
-  - Github: [https://github.com/awslabs/rag-qa-arena](https://github.com/awslabs/rag-qa-arena)
+- **LFRQA  2024-7 | [Paper](https://www.arxiv.org/abs/2407.13998) | [Github](https://github.com/awslabs/rag-qa-arena)**
+  
+  - Publisher: AWS AI Labs et al.
 
-- **MultiHop-RAG**: Benchmarking retrieval-augmented generation for multi-hop queries
-  - Paper: [MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries](https://arxiv.org/abs/2401.15391)
-  - Github: [https://github.com/yixuantt/MultiHop-RAG/](https://github.com/yixuantt/MultiHop-RAG/)
-  - Dataset: [https://huggingface.co/datasets/yixuantt/MultiHopRAG](https://huggingface.co/datasets/yixuantt/MultiHopRAG)
+- **MultiHop-RAG  2024-1 | [Paper](https://arxiv.org/abs/2401.15391) | [Github](https://github.com/yixuantt/MultiHop-RAG/) | [Dataset](https://huggingface.co/datasets/yixuantt/MultiHopRAG)**
+  
+  - Publisher: Hong Kong University of Science and Technology
 
-- **ViDoRe**: A benchmark for evaluating document retrieval using visual features across multiple domains and modalities
-  - Paper: [ColPali: Efficient Document Retrieval with Vision Language Models](https://arxiv.org/abs/2407.01449)
-  - Dataset: [https://huggingface.co/vidore](https://huggingface.co/vidore)
+- **ViDoRe  2024-7 | [Paper](https://arxiv.org/abs/2407.01449) | [Dataset](https://huggingface.co/vidore)**
+  
+  - Publisher: Illuin Technology et al.
 
-- **M2KR**: A framework for training and evaluating multimodal retrievers in Knowledge-based Visual Question Answering (KB-VQA)
-  - Paper: [PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers](https://arxiv.org/abs/2402.08327)
-  - Github: [https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)
-  - Dataset: [https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)
+- **M2KR  2024-2 | [Paper](https://arxiv.org/abs/2402.08327) | [Github](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering) | [Dataset](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering)**
+  
+  - Publisher: Department of Engineering et al.
 
-- **M-BEIR**: A multimodal retrieval benchmark designed to standardize the evaluation of universal multimodal information retrieval
-  - Paper: [UniIR: Training and Benchmarking Universal Multimodal Information Retrievers](https://arxiv.org/abs/2311.17136)
-  - Github: [https://github.com/TIGER-AI-Lab/UniIR](https://github.com/TIGER-AI-Lab/UniIR)
-  - Dataset: [https://huggingface.co/datasets/TIGER-Lab/M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR)
+- **M-BEIR  2023-11 | [Paper](https://arxiv.org/abs/2311.17136) | [Github](https://github.com/TIGER-AI-Lab/UniIR) | [Dataset](https://huggingface.co/datasets/TIGER-Lab/M-BEIR)**
+  
+  - Publisher: University of Waterloo et al.
 
-- **MRAG-Bench**: A multimodal RAG benchmark designed to evaluate the effectiveness of visual knowledge retrieval in large vision-language models.
-  - Paper: [MRAG-Bench: Vision-Centric Evaluation for Retrieval-Augmented Multimodal Models](https://arxiv.org/abs/2410.08182)
-  - Github: [https://github.com/mragbench/MRAG-Bench](https://github.com/mragbench/MRAG-Bench)
-  - Dataset: [https://huggingface.co/datasets/uclanlp/MRAG-Bench](https://huggingface.co/datasets/uclanlp/MRAG-Bench)
+- **MRAG-Bench  2023-10 | [Paper](https://arxiv.org/abs/2410.08182) | [Github](https://github.com/mragbench/MRAG-Bench) | [Dataset](https://huggingface.co/datasets/uclanlp/MRAG-Bench)**
+  
+  - Publisher: UCLA et al.
 
 ## Contact
 Contact information：
