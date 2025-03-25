@@ -114,9 +114,6 @@ The following is a summary of the dataset information module.
   - Add **[Expository-Prose-V1](https://www.arxiv.org/abs/2408.03506)** (Pre-training Corpora | General Pre-training Corpora | Multi-category).
   - Add **[DebateQA](https://arxiv.org/abs/2408.01419)** (Evaluation Datasets | Knowledge); **[NeedleBench](https://arxiv.org/pdf/2407.11963)** (Evaluation Datasets | Long Text); **[ArabicMMLU](https://aclanthology.org/2024.findings-acl.334/)** (Evaluation Datasets | Subject); **[PersianMMLU](https://arxiv.org/abs/2404.06644)** (Evaluation Datasets | Subject); **[TMMLU+](https://arxiv.org/abs/2403.01858)** (Evaluation Datasets | Subject).
   - Add **[RAGEval](https://arxiv.org/abs/2408.01262)** (RAG Datasets); **[LFRQA](https://www.arxiv.org/abs/2407.13998)** (RAG Datasets); **[MultiHop-RAG](https://arxiv.org/abs/2401.15391)** (RAG Datasets).
-
-</details>
-
 - （2024/12/14）
   - Add **[Future-Idea-Generation](https://arxiv.org/abs/2409.06185)** (Evaluation Datasets | Other); **[WenMind](https://openreview.net/pdf?id=0G5OK5vmmg)** (Evaluation Datasets | Subject); **[Chinese SimpleQA](https://arxiv.org/abs/2411.07140)** (Evaluation Datasets | Knowledge).
   - Add **[MME-RealWorld](https://arxiv.org/abs/2408.13257)** (MLLMs Datasets | Evaluation Datasets); **[II-Bench](https://arxiv.org/abs/2406.05862)** (MLLMs Datasets | Evaluation Datasets); **[CII-Bench](https://arxiv.org/abs/2410.13854)** (MLLMs Datasets | Evaluation Datasets); **[ALM-Bench](https://arxiv.org/abs/2411.16508)** (MLLMs Datasets | Evaluation Datasets).
@@ -124,6 +121,10 @@ The following is a summary of the dataset information module.
   - Add **[ViDoRe](https://arxiv.org/abs/2407.01449)** (RAG Datasets); **[M2KR](https://arxiv.org/abs/2402.08327)** (RAG Datasets); **[M-BEIR](https://arxiv.org/abs/2311.17136)** (RAG Datasets); **[MRAG-Bench](https://arxiv.org/abs/2410.08182)** (RAG Datasets).
   - Add **[SlimOrca](https://huggingface.co/datasets/Open-Orca/SlimOrca)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | CI & MC); **[GPTeacher](https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct)** (Instruction Fine-tuning Datasets | General Instruction Fine-tuning Datasets | MC); **[OrcaMathWordProblems](https://arxiv.org/abs/2402.14830)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[MathInstruct](https://arxiv.org/abs/2309.05653)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[MetaMathQA](https://arxiv.org/abs/2309.12284)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Math); **[Magicoder-OSS-Instruct-75K](https://arxiv.org/abs/2312.02120)** (Instruction Fine-tuning Datasets | Domain-specific Instruction Fine-tuning Datasets | Code).
   - Add **[UltraInteract](https://arxiv.org/abs/2404.02078)** (Preference Datasets | Other).
+
+</details>
+
+- （2025/03/25）Add **[GneissWeb](https://arxiv.org/abs/2502.14907)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
 - We will release the dataset information in CSV format (2025).
 
 ## Table of Contents
@@ -359,6 +360,9 @@ The general pre-training corpora are large-scale datasets composed of extensive 
   - Size: 150 B Tokens
   - License: Skywork Community License
   - Source: Publicly accessible Chinese Internet webpages
+
+- **GneissWeb 2025-2 | [Paper](https://arxiv.org/abs/2502.14907) | [Dataset](https://huggingface.co/datasets/ibm-granite/GneissWeb)**
+  - Publisher: IBM Research et al. 
 
 #### Language Texts
 
