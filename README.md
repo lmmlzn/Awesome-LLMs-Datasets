@@ -125,7 +125,13 @@ The following is a summary of the dataset information module.
 </details>
 
 - （2025/03/25）Add **[GneissWeb](https://arxiv.org/abs/2502.14907)** (Pre-training Corpora | General Pre-training Corpora | Webpages).
-- We will release the dataset information in CSV format (2025).
+- （2025/10/11）
+    - Add **[MMLU-Redux](https://aclanthology.org/2025.naacl-long.262)** (Evaluation Datasets | Subject); **[MMLU-Pro](https://openreview.net/pdf?id=y10DM6R2r3)** (Evaluation Datasets | Subject); **[SuperGPQA
+](https://arxiv.org/abs/2502.14739)** (Evaluation Datasets | Subject); **[HumanEval+](https://proceedings.neurips.cc/paper_files/paper/2023/file/43e9d647ccd3e4b7b5baab53f0368686-Paper-Conference.pdf)** (Evaluation Datasets | Code); **[CRUXEval](https://dl.acm.org/doi/10.5555/3692070.3692729)** (Evaluation Datasets | Code); **[MMMLU](https://huggingface.co/datasets/openai/MMMLU)** (Evaluation Datasets | Multilingual); **[MCS-Bench
+](https://aclanthology.org/2025.acl-long.515)** (Evaluation Datasets | Other); **[INCLUDE](https://openreview.net/forum?id=k3gCieTXeY)** (Evaluation Datasets | Multilingual); **[LiveBench](https://arxiv.org/abs/2406.19314)** (Evaluation Datasets | General); **[IFEval](https://arxiv.org/abs/2311.07911)** (Evaluation Datasets | General); **[WritingBench](https://arxiv.org/abs/2503.05244)** (Evaluation Datasets | Other); **[AIME](https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions)** (Evaluation Datasets | Subject); **[ZebraLogic](https://arxiv.org/abs/2502.01100)** (Evaluation Datasets | Reasoning); **[CodeElo](https://arxiv.org/abs/2501.01257)** (Evaluation Datasets | Code).
+    - Add **[Zebra-CoT](https://arxiv.org/abs/2507.16746)** (MLLMs Datasets | Instruction Fine-tuning Datasets).
+    - Add **[Big-Math](https://arxiv.org/abs/2502.17387)** (Preference Datasets | RL Datasets).
+
 
 ## Table of Contents
 - **[Pre-training Corpora](#pre-training-corpora)**
@@ -166,6 +172,7 @@ The following is a summary of the dataset information module.
     - [Sort](#sort)
     - [Score](#score)
     - [Other](#other03)
+  - [RL Datasets](#rl-datasets)
 - **[Evaluation Datasets](#evaluation-datasets)**
   - [General](#general)
   - [Exam](#exam)
@@ -1925,6 +1932,11 @@ The preference evaluation methods for preference datasets can be categorized int
   - Preference Evaluation Method: Other
   - Source: CodeContest, MATH, etc.
 
+### RL Datasets
+- **Big-Math 2025-2 | [Paper](https://arxiv.org/abs/2502.17387) | [Github](https://github.com/SynthLabsAI/big-math) | [Dataset](https://huggingface.co/datasets/SynthLabsAI/Big-Math-RL-Verified)**
+
+  - Publisher: SynthLabs et al.
+
 ## Evaluation Datasets
 Evaluation datasets are a carefully curated and annotated set of data samples used to assess the performance of LLMs across various tasks.**Datasets are classified based on evaluation domains.**
 
@@ -2053,6 +2065,26 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Focus: Systematically analyze system message following ability
   - Numbers of Evaluation Categories/Subcategories: 3/-
   - Evaluation Category: Constraint complexity, Instruction misalignment, Multi-turn stability
+
+- **LiveBench 2024-6 | All | EN | HG & CI | [Paper](https://arxiv.org/abs/2406.19314) | [Github](https://github.com/livebench/livebench) | [Dataset](https://huggingface.co/collections/livebench/livebench-67eaef9bb68b45b17a197a98) | [Website](https://livebench.ai/#/)**
+  - Publisher: Abacus.AI et al.
+  - Size: 1000 instances (regularly updated)
+  - License: Apache-2.0
+  - Question Type: Multi
+  - Evaluation Method: CE
+  - Focus: Contamination-limited evaluation of LLMs across math, coding, reasoning, language, instruction following, and data analysis
+  - Numbers of Evaluation Categories/Subcategories: 6/18
+  - Evaluation Category: Math, Coding, Reasoning, Language, Instruction Following, Data Analysis
+
+- **IFEval 2023-11 | All | Multi | HG | [Paper](https://arxiv.org/abs/2311.07911) | [Github](https://github.com/google-research/google-research/tree/master/instruction_following_eval) | [Dataset](https://github.com/google-research/google-research/tree/master/instruction_following_eval)**
+  - Publisher: Google et al.
+  - Size: 541 instances
+  - License: Apache-2.0
+  - Question Type: SQ
+  - Evaluation Method: ME
+  - Focus: Instruction-following ability of LLMs via verifiable instructions
+  - Numbers of Evaluation Categories/Subcategories: 9/25
+  - Evaluation Category: Keywords, Language, Length Constraints, Detectable Content, Detectable Format, Combination, Change Cases, Start with/End with, Punctuation
 
 ### Exam
 
@@ -2329,6 +2361,46 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 3/42
   - Evaluation Category: Ancient Prose, Ancient Poetry, Ancient Literary Culture
 
+- **MMLU-Redux 2024-6 | All | EN | HG | [Paper](https://aclanthology.org/2025.naacl-long.262) | [Github](https://github.com/aryopg/mmlu-redux) | [Dataset](https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0)** 
+  - Publisher: University of Edinburgh et al.
+  - Size: 5700 instances
+  - License: CC-BY-4.0
+  - Question Type: OQ
+  - Evaluation Method: CE
+  - Focus: Knowledge in academic and professional domains
+  - Numbers of Evaluation Categories/Subcategories: 4/57
+  - Evaluation Category: Humanities, Social science, STEM, Other
+
+- **MMLU-Pro 2024-6 | All | EN | HG & CI | [Paper](https://openreview.net/pdf?id=y10DM6R2r3) | [Github](https://github.com/TIGER-AI-Lab/MMLU-Pro) | [Dataset](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro)** 
+  - Publisher: University of Waterloo et al.
+  - Size: 12032 instances
+  - License: MIT
+  - Question Type: OQ
+  - Evaluation Method: CE
+  - Focus: Multi-discipline language understanding and complex reasoning
+  - Numbers of Evaluation Categories/Subcategories: 14/-
+  - Evaluation Category: Math, Physics, Chemistry, Law, Engineering, Economics, Psychology, Health, Business, Biology, Philosophy, Computer Science, History, Other
+
+- **SuperGPQA 2025-2 | All | EN | HG & CI & MC | [Paper](https://arxiv.org/abs/2502.14739) | [Github](https://github.com/SuperGPQA/SuperGPQA) | [Dataset](https://huggingface.co/datasets/m-a-p/SuperGPQA)**
+  - Publisher: M-A-P
+  - Size: 26529 instances
+  - License: ODC-BY
+  - Question Type: OQ
+  - Evaluation Method: HE & CE & ME
+  - Focus: Graduate-level knowledge and reasoning capabilities across 285 disciplines
+  - Numbers of Evaluation Categories/Subcategories: 13(Discipline)/72(Field)/285(Subfield)
+  - Evaluation Category: Agronomy, Economics, Education, Engineering, History, Law, Literature and Arts, Management, Medicine, Military Science, Philosophy, Science, Sociology
+
+- **AIME 1983-2025 (updated annually) | All | EN | HG | [Dataset](https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions)**
+  - Publisher: AoPS
+  - Size: -
+  - License: -
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Math Reasoning
+  - Numbers of Evaluation Categories/Subcategories: 1/-
+  - Evaluation Category: Math Reasoning
+
 ### NLU
 
 - **CLUE  2020-12 | All | ZH | CI | [Paper](https://aclanthology.org/2020.coling-main.419.pdf) | [Github](https://github.com/CLUEbenchmark/CLUE)**
@@ -2512,6 +2584,16 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Focus: Table question answering (TableQA) capabilities
   - Numbers of Evaluation Categories/Subcategories: 4/18
   - Evaluation Category: Fact checking, Numerical reasoning, Data analysis, Visualization
+
+- **ZebraLogic 2025-2 | All | EN | HG | [Paper](https://arxiv.org/abs/2502.01100) | [Github](https://github.com/WildEval/ZeroEval) | [Dataset](https://huggingface.co/datasets/WildEval/ZebraLogic) | [Website](https://huggingface.co/spaces/allenai/ZebraLogic)**
+  - Publisher: University of Washington et al.
+  - Size: 1000 instances
+  - License: Apache-2.0
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Logical reasoning capabilities of LLMs on constraint satisfaction problems (CSPs) via logic grid puzzles
+  - Numbers of Evaluation Categories/Subcategories: 4/-
+  - Evaluation Category: Small, Medium, Large, X-Large
 
 ### Knowledge
 
@@ -2843,6 +2925,36 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Focus: Evaluate LLMs’ coding capabilities thoroughly
   - Numbers of Evaluation Categories/Subcategories: 6/-
   - Evaluation Category: Computation, Network, Basic operation, System, Visualization, Cryptography
+
+- **HumanEval+ 2023-5 | All | EN & PL | CI & MC | [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/43e9d647ccd3e4b7b5baab53f0368686-Paper-Conference.pdf) | [Github](https://github.com/evalplus/evalplus) | [Dataset](https://huggingface.co/evalplus) | [Website](https://evalplus.github.io/leaderboard.html)**
+  - Publisher: University of Illinois Urbana-Champaign et al.
+  - Size: ~127500 test instances (164 programming tasks)
+  - License: Apache-2.0
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Functional correctness of LLM-synthesized code, with detection of previously undetected errors via extended test-cases
+  - Numbers of Evaluation Categories/Subcategories: 1/-
+  - Evaluation Category: Code synthesis (Python programming tasks)
+
+- **CRUXEval 2024-1 | All | EN & PL | MC | [Paper](https://dl.acm.org/doi/10.5555/3692070.3692729) | [Github](https://github.com/facebookresearch/cruxeval) | [Dataset](https://huggingface.co/datasets/cruxeval-org/cruxeval) | [Website](https://crux-eval.github.io)**
+  - Publisher: MIT CSAIL et al.
+  - Size: 800 instances
+  - License: MIT
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Code reasoning, understanding, and execution capabilities of LLMs
+  - Numbers of Evaluation Categories/Subcategories: 1/2
+  - Evaluation Category: Code
+
+- **CodeElo 2025-1 | All | EN & PL | CI | [Paper](https://arxiv.org/abs/2501.01257) | [Github](https://github.com/QwenLM/CodeElo) | [Dataset](https://huggingface.co/datasets/Qwen/CodeElo) | [Website](https://codeelo-bench.github.io)**
+  - Publisher: Qwen Team
+  - Size: 387 instances
+  - License: Apache-2.0
+  - Question Type: SQ
+  - Evaluation Method: CE
+  - Focus: Competition-level code generation capabilities of LLMs
+  - Numbers of Evaluation Categories/Subcategories: 5/35
+  - Evaluation Category: Div.1, Div.1+2, Div.2, Div.3, Div.4
 
 ### OOD
 
@@ -3405,6 +3517,26 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 1/-
   - Evaluation Category: Math
 
+- **MMMLU 2024-9 | All | Multi (14) | CI | [Dataset](https://huggingface.co/datasets/openai/MMMLU)**
+  - Publisher: OpenAI
+  - Size: 393176 instances
+  - License: MIT
+  - Question Type: OQ
+  - Evaluation Method: CE
+  - Focus: Knowledge in academic and professional domains
+  - Numbers of Evaluation Categories/Subcategories: 4/57
+  - Evaluation Category: Humanities, Social science, STEM, Other
+
+- **INCLUDE 2024-11 | All | Multi (44) | HG & CI | [Paper](https://openreview.net/forum?id=k3gCieTXeY) | [Dataset](https://huggingface.co/datasets/CohereLabs/include-base-44)**
+  - Publisher: EPFL et al.
+  - Size: 22953 instances
+  - License: Apache-2.0
+  - Question Type: OQ
+  - Evaluation Method: CE
+  - Focus: Multilingual language understanding with regional knowledge
+  - Numbers of Evaluation Categories/Subcategories: 8/58
+  - Evaluation Category: Humanities, Social Science, STEM, Applied Science, Business & Commerce, Health-Oriented Education, Other
+
 ### Other <a id="other04"></a>
 
 - **EcomGPT_eval  2023-8 | All | EN & ZH | CI | [Paper](https://arxiv.org/pdf/2308.06966.pdf) | [Github](https://github.com/Alibaba-NLP/EcomGPT)**
@@ -3494,6 +3626,28 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 5/-
   - Evaluation Category: Computer Science, Economics, Chemistry, Physics, Medicine
   - Domain: Idea Generation
+
+- **MCS-Bench 2025-7 | All | ZH | HG & CI & MC | [Paper](https://aclanthology.org/2025.acl-long.515) | [Github](https://github.com/SCUT-DLVCLab/MCS-Bench)**
+  - Publisher: South China University of Technology et al.
+  - Size: 6500 instances
+  - License: CC-BY-NC-SA-4.0
+  - Question Type: Multi
+  - Evaluation Method: CE
+  - Focus: Chinese Classical Studies (CCS)
+  - Numbers of Evaluation Categories/Subcategories: 7/45
+  - Evaluation Category: Ancient Chinese Text, Calligraphy, Painting, Oracle Bone Script, Seal, Cultural Relic, Illustration
+  - Domain: Chinese Classical Studies (CCS)
+
+- **WritingBench 2025-3 | All | EN | HG & MC | [Paper](https://arxiv.org/abs/2503.05244) | [Github](https://github.com/X-PLUG/WritingBench)**
+  - Publisher: Alibaba
+  - Size: 1239 instances
+  - License: Apache-2.0
+  - Question Type: SQ
+  - Evaluation Method: ME
+  - Focus: Generative writing capabilities of LLMs across 6 core domains and 100 subdomains
+  - Numbers of Evaluation Categories/Subcategories: 6/100
+  - Evaluation Category: Academic & Engineering, Finance & Business, Politics & Law, Literature & Arts, Education, Advertising & Marketing
+  - Domain: Writing
 
 ### Evaluation Platform
 
@@ -4430,6 +4584,12 @@ Multitask datasets hold significance as they can be concurrently utilized for di
 - **ALLaVA-4V Data  2024-2 | [Paper](https://arxiv.org/abs/2402.11684) | [Github](https://github.com/FreedomIntelligence/ALLaVA) | [Dataset](https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V)**
   
   - Publisher: Shenzhen Research Institute of Big Data et al.
+
+#### Reasoning
+
+- **Zebra-CoT 2025-7 | [Paper](https://arxiv.org/abs/2507.16746) | [Github](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT) | [Dataset](https://huggingface.co/datasets/multimodal-reasoning-lab/Zebra-CoT)**
+
+  - Publisher: Columbia University et al.
 
 ### Evaluation Datasets <a id="evaluation02"></a>
 
