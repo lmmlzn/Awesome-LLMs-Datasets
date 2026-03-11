@@ -3670,6 +3670,8 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
 
 - **[C-MTEB Leaderboard](https://github.com/FlagOpen/FlagEmbedding/tree/master/C_MTEB)**
 
+- **[LLM Benchmark Costco](https://github.com/joe1chief/llm-benchmark-costco)** - A searchable database of 378+ LLM evaluation benchmarks across 12 capability dimensions, with inline PDF reading, Mermaid build flowcharts, bilingual EN/ZH UI, and automated CI/CD. [Live Demo](https://joe1chief.github.io/llm-benchmark-costco/)
+
 ## Traditional NLP Datasets
 Diverging from instruction fine-tuning datasets, we categorize text datasets dedicated to natural language tasks before the widespread adoption of LLMs as traditional NLP datasets.
 
