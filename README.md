@@ -2802,6 +2802,7 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Evaluation Category: Open weather, The cat API, Home search, Trip booking, Google sheets, Virtual home, Web shop, Tabletop
 
 - **ToolEyes  2024-1 | All | EN | HG | [Paper](https://arxiv.org/abs/2401.00741) | [Github](https://github.com/Junjie-Ye/ToolEyes) | [Datasets](https://github.com/Junjie-Ye/ToolEyes)**
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
   - Publisher: Fudan University
   - Size: 382 instances
   - License: Apache-2.0
