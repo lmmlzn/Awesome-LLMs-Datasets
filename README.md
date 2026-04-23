@@ -4740,3 +4740,4 @@ If you wish to cite this project, please use the following citation format:
   year={2024}
 }
 ```
+- [BenchGecko AI Model Benchmarks](https://benchgecko.ai) - Open dataset of AI model benchmark scores, pricing, and provider data. Available on [Harvard Dataverse](https://doi.org/10.7910/DVN/MTMTPC), [Hugging Face](https://huggingface.co/datasets/BenchGeckoAI/ai-model-benchmarks-2026), and [Figshare](https://figshare.com/articles/dataset/AI_Model_Benchmarks_and_Pricing_Dataset_2026/32065770). Free API.
