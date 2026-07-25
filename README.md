@@ -2981,6 +2981,16 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
 
 ### Law
 
+- **CA-Civil-Litigation-Corrections  2026-7 | Partial | EN | HG | [Github](https://github.com/myfilms79/california-civil-litigation-legal-ai-corrections) | [Dataset](https://huggingface.co/datasets/MyfilmsAI/california-civil-litigation-legal-ai-corrections-sample)**
+  - Publisher: Meta-Flywheel Ventures
+  - Size: 767 contribution cards, 291 correction events
+  - License: Proprietary (free gated sample)
+  - Question Type: SQ
+  - Evaluation Method: HE & ME
+  - Focus: Correction patterns and graded evaluation of AI-produced legal work in California civil litigation
+  - Numbers of Evaluation Categories/Subcategories: 8/10
+  - Evaluation Category: Legal craft dimensions (reasoning, procedural accuracy, persuasiveness, citation accuracy, evidence integration, strategic coherence, drafting precision, jurisdictional specificity)
+
 - **LAiW  2023-10 | Partial | ZH | CI | [Paper](https://arxiv.org/pdf/2310.05620.pdf) | [Github](https://github.com/Dai-shen/LAiW)**
   - Publisher: Sichuan University et al.
   - Size: -
