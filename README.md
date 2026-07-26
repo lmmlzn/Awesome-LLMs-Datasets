@@ -2086,6 +2086,16 @@ Evaluation datasets are a carefully curated and annotated set of data samples us
   - Numbers of Evaluation Categories/Subcategories: 9/25
   - Evaluation Category: Keywords, Language, Length Constraints, Detectable Content, Detectable Format, Combination, Change Cases, Start with/End with, Punctuation
 
+- **StructEval 2025-5 | All | EN | HG & MC | [Paper](https://arxiv.org/abs/2505.20139) | [Github](https://github.com/TIGER-AI-Lab/StructEval) | [Dataset](https://huggingface.co/datasets/TIGER-Lab/StructEval) | [Website](https://tiger-ai-lab.github.io/StructEval/)**
+  - Publisher: University of Waterloo et al.
+  - Size: 2035 instances
+  - License: MIT
+  - Question Type: SQ
+  - Evaluation Method: CE & ME
+  - Focus: LLM structural-output generation and format conversion across 18 formats
+  - Numbers of Evaluation Categories/Subcategories: 2/44
+  - Evaluation Category: Text-only structured outputs, Visually rendered structured outputs
+
 ### Exam
 
 - **AGIEval  2023-4 | All | EN & ZH | HG & CI | [Paper](https://arxiv.org/pdf/2304.06364.pdf) | [Github](https://github.com/ruixiangcui/AGIEval) | [Dataset](https://github.com/ruixiangcui/AGIEval/tree/main/data/v1)**
