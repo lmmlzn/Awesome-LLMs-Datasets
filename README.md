@@ -1205,6 +1205,13 @@ General instruction fine-tuning datasets contain one or more instruction categor
   - Source: Q&A communities, Wikipedia, examinations, existing NLP datasets
   - Instruction Category: Multi
 
+- **TCA-004  2026-11 | All | Multi (75) | HG & CI | [Dataset](https://huggingface.co/datasets/TheChatArchive/TCA-004)**
+  - Publisher: The Chat Archive
+  - Size: 227192 instances
+  - License: Mixed source licenses, non-commercial as a whole (each record keeps its source license)
+  - Source: Real user conversations sampled from 23 datasets (WildChat, LMArena, ShareChat, ShareGPT, SWE-chat, PRISM, HH-RLHF, OASST2), one conversation per prompt across sources
+  - Instruction Category: Multi
+
 #### HG & MC
 
 - **InstructGPT-sft  2022-3 | Not | EN | HG & MC | [Paper](https://arxiv.org/pdf/2203.02155.pdf)**
